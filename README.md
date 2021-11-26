@@ -9,4 +9,4 @@ Custom config for Powershell Core 7+ under Windows Terminal using OhMyPosh and C
 |Prompt|n/a|code $profile > "Set-PoshPrompt -Theme jblab_2021" > save @ Powershell|
 |Windows Terminal|[config](https://github.com/mezdelex/WindowsTerminalPowershellCoreConfig/blob/main/settings.json)|ctrl+, @ Windows Terminal|
 
-From this point onwards, Windows Terminal wraps Powershell Core by default.
+From this point onwards, Windows Terminal (wt) wraps Powershell Core by default.
