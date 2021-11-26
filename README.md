@@ -1,5 +1,5 @@
 # Windows Terminal + Powershell Core + OhMyPosh + Cascadia Code
-My own custom config for Powershell Core 7+ under Windows Terminal using OhMyPosh and Cascadia Code.
+Custom config for Powershell Core 7+ under Windows Terminal using OhMyPosh and Cascadia Code.
 
 
 |Resource|URI|Installation|
