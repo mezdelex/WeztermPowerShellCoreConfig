@@ -57,30 +57,10 @@
         },
         {
             "command": {
-                "action": "newTab"
-            },
-            "keys": "ctrl+t"
-        },
-        {
-            "command": {
                 "action": "newTab",
                 "index": 4
             },
             "keys": "ctrl+5"
-        },
-        {
-            "command": "openTabColorPicker"
-        },
-        {
-            "command": "toggleFocusMode"
-        },
-        {
-            "command": "toggleAlwaysOnTop"
-        },
-        {
-            "command": {
-                "action": "renameTab"
-            }
         },
         {
             "command": {
@@ -96,36 +76,8 @@
             "keys": "alt+down"
         },
         {
-            "command": "toggleShaderEffects"
-        },
-        {
-            "command": "openTabRenamer"
-        },
-        {
-            "command": {
-                "action": "closeOtherTabs"
-            }
-        },
-        {
-            "command": {
-                "action": "closeTabsAfter"
-            }
-        },
-        {
-            "command": {
-                "action": "moveTab",
-                "direction": "forward"
-            }
-        },
-        {
             "command": "duplicateTab",
-            "keys": "ctrl+d"
-        },
-        {
-            "command": {
-                "action": "moveTab",
-                "direction": "backward"
-            }
+            "keys": "ctrl+t"
         },
         {
             "command": {
@@ -137,9 +89,6 @@
         {
             "command": "scrollDownPage",
             "keys": "pgdn"
-        },
-        {
-            "command": "togglePaneZoom"
         },
         {
             "command": {
