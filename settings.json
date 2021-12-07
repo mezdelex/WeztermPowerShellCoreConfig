@@ -295,18 +295,21 @@
             "keys": "alt+shift+end"
         }
     ],
+    "alwaysShowTabs": false,
+    "useAcrylicInTabRow": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "profiles": {
         "defaults": {
+            "acrylicOpacity": 1.0,
+            "colorScheme": "Gruvbox Material Dark",
             "font": {
                 "face": "CaskaydiaCove NF"
             },
             "startingDirectory": ".",
             "useAcrylic": true,
-            "acrylicOpacity": 1,
-            "colorScheme": "Gruvbox Material Dark"
+            "tabColor": "#665C54"
         },
         "list": [
             {
