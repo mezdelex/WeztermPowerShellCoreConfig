@@ -1,5 +1,5 @@
-# Windows Terminal + Powershell Core + OhMyPosh + Cascadia Code
-Custom config for Powershell Core 7+ under Windows Terminal using OhMyPosh and Cascadia Code.
+# Windows Terminal + Powershell Core + OhMyPosh + Cascadia Code + Gruvbox Material Dark
+Custom config for Powershell Core 7+ under Windows Terminal using OhMyPosh and Cascadia Code with Gruvbox Material Dark color scheme.
 
 
 |Resource|URI|Installation|
