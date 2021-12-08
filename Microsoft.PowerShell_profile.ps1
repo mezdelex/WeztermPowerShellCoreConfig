@@ -10,6 +10,7 @@ Set-PSReadLineOption -BellStyle None
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineKeyHandler -Chord 'Ctrl+d' -Function DeleteChar
+Set-PSReadlineKeyHandler -Key Tab -Function Complete
 
 # PSFzf
 Import-Module PSFzf
