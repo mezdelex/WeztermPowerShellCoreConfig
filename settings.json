@@ -23,10 +23,6 @@
             "keys": "ctrl+t"
         },
         {
-            "command": "closePane",
-            "keys": "ctrl+w"
-        },
-        {
             "command": {
                 "action": "nextTab"
             },
@@ -38,34 +34,24 @@
             },
             "keys": "ctrl+shift+tab"
         },
-        // Scroll Panes
+        // Split & Close Panes
         {
             "command": {
-                "action": "scrollUp"
+                "action": "splitPane",
+                "split": "horizontal"
             },
-            "keys": "alt+shift+up"
+            "keys": "ctrl+alt+down"
         },
         {
             "command": {
-                "action": "scrollDown"
+                "action": "splitPane",
+                "split": "vertical"
             },
-            "keys": "alt+shift+down"
+            "keys": "ctrl+alt+right"
         },
         {
-            "command": "scrollToTop",
-            "keys": "alt+shift+home"
-        },
-        {
-            "command": "scrollToBottom",
-            "keys": "alt+shift+end"
-        },
-        {
-            "command": "scrollUpPage",
-            "keys": "pgup"
-        },
-        {
-            "command": "scrollDownPage",
-            "keys": "pgdn"
+            "command": "closePane",
+            "keys": "ctrl+w"
         },
         // Select Panes
         {
@@ -96,20 +82,34 @@
             },
             "keys": "alt+right"
         },
-        // Split Panes
+        // Scroll Panes
         {
             "command": {
-                "action": "splitPane",
-                "split": "horizontal"
+                "action": "scrollUp"
             },
-            "keys": "ctrl+alt+down"
+            "keys": "alt+shift+up"
         },
         {
             "command": {
-                "action": "splitPane",
-                "split": "vertical"
+                "action": "scrollDown"
             },
-            "keys": "ctrl+alt+right"
+            "keys": "alt+shift+down"
+        },
+        {
+            "command": "scrollToTop",
+            "keys": "alt+shift+home"
+        },
+        {
+            "command": "scrollToBottom",
+            "keys": "alt+shift+end"
+        },
+        {
+            "command": "scrollUpPage",
+            "keys": "pgup"
+        },
+        {
+            "command": "scrollDownPage",
+            "keys": "pgdn"
         },
         // Resize Panes
         {
