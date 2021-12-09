@@ -1,83 +1,7 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": [
-        {
-            "command": {
-                "action": "openSettings",
-                "target": "defaultsFile"
-            },
-            "keys": "ctrl+alt+comma"
-        },
-        {
-            "command": {
-                "action": "scrollUp"
-            },
-            "keys": "alt+shift+up"
-        },
-        {
-            "command": "openNewTabDropdown",
-            "keys": "ctrl+shift+space"
-        },
-        {
-            "command": "toggleFullscreen",
-            "keys": "alt+enter"
-        },
-        {
-            "command": "toggleFullscreen",
-            "keys": "f11"
-        },
-        {
-            "command": "closeWindow",
-            "keys": "alt+f4"
-        },
-        {
-            "command": {
-                "action": "moveFocus",
-                "direction": "right"
-            },
-            "keys": "alt+right"
-        },
-        {
-            "command": {
-                "action": "moveFocus",
-                "direction": "left"
-            },
-            "keys": "alt+left"
-        },
-        {
-            "command": {
-                "action": "splitPane",
-                "split": "horizontal"
-            },
-            "keys": "ctrl+alt+down"
-        },
-        {
-            "command": {
-                "action": "newTab"
-            },
-            "keys": "ctrl+t"
-        },
-        {
-            "command": {
-                "action": "newTab",
-                "index": 4
-            },
-            "keys": "ctrl+5"
-        },
-        {
-            "command": "openTabColorPicker"
-        },
-        {
-            "command": "toggleFocusMode"
-        },
-        {
-            "command": "toggleAlwaysOnTop"
-        },
-        {
-            "command": {
-                "action": "renameTab"
-            }
-        },
+        // Open Settings
         {
             "command": {
                 "action": "openSettings"
@@ -86,121 +10,21 @@
         },
         {
             "command": {
-                "action": "moveFocus",
-                "direction": "down"
+                "action": "openSettings",
+                "target": "defaultsFile"
             },
-            "keys": "alt+down"
+            "keys": "ctrl+alt+comma"
         },
-        {
-            "command": "toggleShaderEffects"
-        },
-        {
-            "command": "openTabRenamer"
-        },
+        // Manage Tabs
         {
             "command": {
-                "action": "closeOtherTabs"
-            }
-        },
-        {
-            "command": {
-                "action": "closeTabsAfter"
-            }
-        },
-        {
-            "command": {
-                "action": "moveTab",
-                "direction": "forward"
-            }
-        },
-        {
-            "command": {
-                "action": "moveTab",
-                "direction": "backward"
-            }
-        },
-        {
-            "command": {
-                "action": "splitPane",
-                "split": "vertical"
+                "action": "newTab"
             },
-            "keys": "ctrl+alt+right"
+            "keys": "ctrl+t"
         },
         {
-            "command": "scrollDownPage",
-            "keys": "pgdn"
-        },
-        {
-            "command": "togglePaneZoom"
-        },
-        {
-            "command": {
-                "action": "newTab",
-                "index": 0
-            },
-            "keys": "ctrl+1"
-        },
-        {
-            "command": {
-                "action": "newTab",
-                "index": 1
-            },
-            "keys": "ctrl+2"
-        },
-        {
-            "command": {
-                "action": "newTab",
-                "index": 2
-            },
-            "keys": "ctrl+3"
-        },
-        {
-            "command": {
-                "action": "newTab",
-                "index": 3
-            },
-            "keys": "ctrl+4"
-        },
-        {
-            "command": {
-                "action": "newTab",
-                "index": 5
-            },
-            "keys": "ctrl+6"
-        },
-        {
-            "command": {
-                "action": "newTab",
-                "index": 7
-            },
-            "keys": "ctrl+8"
-        },
-        {
-            "command": {
-                "action": "newTab",
-                "index": 6
-            },
-            "keys": "ctrl+7"
-        },
-        {
-            "command": {
-                "action": "adjustFontSize",
-                "delta": -1
-            },
-            "keys": "ctrl+minus"
-        },
-        {
-            "command": {
-                "action": "newTab",
-                "index": 8
-            },
-            "keys": "ctrl+9"
-        },
-        {
-            "command": {
-                "action": "adjustFontSize",
-                "delta": 1
-            }
+            "command": "closePane",
+            "keys": "ctrl+w"
         },
         {
             "command": {
@@ -214,16 +38,86 @@
             },
             "keys": "ctrl+shift+tab"
         },
+        // Scroll Panes
         {
-            "command": "closePane",
-            "keys": "ctrl+w"
+            "command": {
+                "action": "scrollUp"
+            },
+            "keys": "alt+shift+up"
         },
         {
             "command": {
-                "action": "resizePane",
+                "action": "scrollDown"
+            },
+            "keys": "alt+shift+down"
+        },
+        {
+            "command": "scrollToTop",
+            "keys": "alt+shift+home"
+        },
+        {
+            "command": "scrollToBottom",
+            "keys": "alt+shift+end"
+        },
+        {
+            "command": "scrollUpPage",
+            "keys": "pgup"
+        },
+        {
+            "command": "scrollDownPage",
+            "keys": "pgdn"
+        },
+        // Select Panes
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "keys": "alt+up"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "keys": "alt+down"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
                 "direction": "left"
             },
-            "keys": "ctrl+left"
+            "keys": "alt+left"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "keys": "alt+right"
+        },
+        // Split Panes
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "horizontal"
+            },
+            "keys": "ctrl+alt+down"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "vertical"
+            },
+            "keys": "ctrl+alt+right"
+        },
+        // Resize Panes
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "up"
+            },
+            "keys": "ctrl+up"
         },
         {
             "command": {
@@ -235,24 +129,18 @@
         {
             "command": {
                 "action": "resizePane",
-                "direction": "right"
+                "direction": "left"
             },
-            "keys": "ctrl+right"
+            "keys": "ctrl+left"
         },
         {
             "command": {
                 "action": "resizePane",
-                "direction": "up"
+                "direction": "right"
             },
-            "keys": "ctrl+up"
+            "keys": "ctrl+right"
         },
-        {
-            "command": {
-                "action": "moveFocus",
-                "direction": "up"
-            },
-            "keys": "alt+up"
-        },
+        // Copy & Paste
         {
             "command": {
                 "action": "copy",
@@ -264,27 +152,10 @@
             "command": "paste",
             "keys": "ctrl+v"
         },
-        {
-            "command": {
-                "action": "scrollDown"
-            },
-            "keys": "alt+shift+down"
-        },
+        // Reset Size
         {
             "command": "resetFontSize",
             "keys": "ctrl+0"
-        },
-        {
-            "command": "scrollUpPage",
-            "keys": "pgup"
-        },
-        {
-            "command": "scrollToTop",
-            "keys": "alt+shift+home"
-        },
-        {
-            "command": "scrollToBottom",
-            "keys": "alt+shift+end"
         }
     ],
     "alwaysShowTabs": false,
