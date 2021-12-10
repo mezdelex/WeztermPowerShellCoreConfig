@@ -97,11 +97,11 @@
         },
         {
             "command": "scrollToTop",
-            "keys": "shift+home"
+            "keys": "alt+shift+home"
         },
         {
             "command": "scrollToBottom",
-            "keys": "shift+end"
+            "keys": "alt+shift+end"
         },
         {
             "command": "scrollUpPage",
