@@ -34,7 +34,7 @@
             },
             "keys": "ctrl+shift+tab"
         },
-        // Split & Close Panes
+        // Manage Panes
         {
             "command": {
                 "action": "splitPane",
@@ -87,21 +87,21 @@
             "command": {
                 "action": "scrollUp"
             },
-            "keys": "alt+shift+up"
+            "keys": "shift+up"
         },
         {
             "command": {
                 "action": "scrollDown"
             },
-            "keys": "alt+shift+down"
+            "keys": "shift+down"
         },
         {
             "command": "scrollToTop",
-            "keys": "alt+shift+home"
+            "keys": "shift+home"
         },
         {
             "command": "scrollToBottom",
-            "keys": "alt+shift+end"
+            "keys": "shift+end"
         },
         {
             "command": "scrollUpPage",
@@ -117,30 +117,37 @@
                 "action": "resizePane",
                 "direction": "up"
             },
-            "keys": "ctrl+up"
+            "keys": "alt+shift+up"
         },
         {
             "command": {
                 "action": "resizePane",
                 "direction": "down"
             },
-            "keys": "ctrl+down"
+            "keys": "alt+shift+down"
         },
         {
             "command": {
                 "action": "resizePane",
                 "direction": "left"
             },
-            "keys": "ctrl+left"
+            "keys": "alt+shift+left"
         },
         {
             "command": {
                 "action": "resizePane",
                 "direction": "right"
             },
-            "keys": "ctrl+right"
+            "keys": "alt+shift+right"
         },
-        // Copy & Paste
+        // Manage Clipboard
+        {
+            "command": {
+                "action": "cut",
+                "singleLine": false
+            },
+            "keys": "ctrl+x"
+        },
         {
             "command": {
                 "action": "copy",
