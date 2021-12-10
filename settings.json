@@ -40,14 +40,14 @@
                 "action": "splitPane",
                 "split": "horizontal"
             },
-            "keys": "ctrl+alt+down"
+            "keys": "ctrl+shift+down"
         },
         {
             "command": {
                 "action": "splitPane",
                 "split": "vertical"
             },
-            "keys": "ctrl+alt+right"
+            "keys": "ctrl+shift+right"
         },
         {
             "command": "closePane",
@@ -105,11 +105,11 @@
         },
         {
             "command": "scrollUpPage",
-            "keys": "pgup"
+            "keys": "shift+pgup"
         },
         {
             "command": "scrollDownPage",
-            "keys": "pgdn"
+            "keys": "shift+pgdn"
         },
         // Resize Panes
         {
@@ -117,28 +117,28 @@
                 "action": "resizePane",
                 "direction": "up"
             },
-            "keys": "alt+shift+up"
+            "keys": "ctrl+up"
         },
         {
             "command": {
                 "action": "resizePane",
                 "direction": "down"
             },
-            "keys": "alt+shift+down"
+            "keys": "ctrl+down"
         },
         {
             "command": {
                 "action": "resizePane",
                 "direction": "left"
             },
-            "keys": "alt+shift+left"
+            "keys": "ctrl+left"
         },
         {
             "command": {
                 "action": "resizePane",
                 "direction": "right"
             },
-            "keys": "alt+shift+right"
+            "keys": "ctrl+right"
         },
         // Manage Clipboard
         {
@@ -158,11 +158,6 @@
         {
             "command": "paste",
             "keys": "ctrl+v"
-        },
-        // Reset Size
-        {
-            "command": "resetFontSize",
-            "keys": "ctrl+0"
         }
     ],
     "alwaysShowTabs": false,
