@@ -105,11 +105,11 @@
         },
         {
             "command": "scrollUpPage",
-            "keys": "shift+pgup"
+            "keys": "pgup"
         },
         {
             "command": "scrollDownPage",
-            "keys": "shift+pgdn"
+            "keys": "pgdn"
         },
         // Resize Panes
         {
