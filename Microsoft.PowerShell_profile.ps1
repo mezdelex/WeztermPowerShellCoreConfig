@@ -1,4 +1,4 @@
-# Oh My Posh
+# OhMyPosh
 Set-PoshPrompt -Theme jblab_2021
 
 # Icons
