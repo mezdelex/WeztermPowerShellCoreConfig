@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="200" src="https://pasteboard.co/h3EE8yS1N0oS.png">
+  <img height="200" src="https://pasteboard.co/Mcy51EQsfK0Z.png">
 <p>
 
 # Windows Terminal + PowerShell Core Config
