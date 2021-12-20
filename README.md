@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://gcdn.pbrd.co/images/Mcy51EQsfK0Z.png?o=1">
+<p>
+
 # Windows Terminal + PowerShell Core Config
 
 |Resource|URI|Installation|
