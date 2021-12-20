@@ -7,7 +7,7 @@
 |Resource|URI|Installation|
 |:-:|:-:|:-:|
 |OhMyPosh|[url](https://ohmyposh.dev/docs/windows)|"Install-Module oh-my-posh -Scope CurrentUser" @ PowerShell|
-|Delugia|[.zip](https://github.com/adam7/delugia-code/releases/download/v2111.01/delugia-complete.zip)|Regular font installation|
+|Delugia Font|[.zip](https://github.com/adam7/delugia-code/releases/download/v2111.01/delugia-complete.zip)|Regular font installation|
 |PowerShell|[config](https://github.com/mezdelex/WindowsTerminalPowershellCoreConfig/blob/main/Microsoft.PowerShell_profile.ps1)|code $profile @ PowerShell|
 |Windows Terminal|[config](https://github.com/mezdelex/WindowsTerminalPowershellCoreConfig/blob/main/settings.json)|ctrl+, @ Windows Terminal|
 |Terminal Icons|n/a|"Install-Module -Name Terminal-Icons -Repository PSGallery -Force" @ PowerShell|
