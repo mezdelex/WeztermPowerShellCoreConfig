@@ -166,6 +166,7 @@
             "colorScheme": "Gruvbox Material Dark",
             "copyFormatting": "none",
             "copyOnSelect": false,
+            "cursorShape": "filledBox",
             "font": {
                 "face": "Delugia"
             },
