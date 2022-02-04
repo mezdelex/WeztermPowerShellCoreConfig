@@ -24,7 +24,7 @@
         {
             "command": {
                 "action": "newTab",
-               "elevate": true
+                "elevate": true
             },
             "keys": "ctrl+shift+t"
         },
@@ -103,11 +103,11 @@
         },
         {
             "command": "scrollToTop",
-            "keys": "alt+shift+home"
+            "keys": "ctrl+home"
         },
         {
             "command": "scrollToBottom",
-            "keys": "alt+shift+end"
+            "keys": "ctrl+end"
         },
         {
             "command": "scrollUpPage",
