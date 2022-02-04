@@ -23,13 +23,6 @@
         },
         {
             "command": {
-                "action": "newTab",
-                "elevate": true
-            },
-            "keys": "ctrl+shift+t"
-        },
-        {
-            "command": {
                 "action": "nextTab"
             },
             "keys": "ctrl+tab"
@@ -174,7 +167,6 @@
             "copyFormatting": "none",
             "copyOnSelect": false,
             "cursorShape": "filledBox",
-            "elevate": true,
             "font": {
                 "face": "Delugia"
             },
