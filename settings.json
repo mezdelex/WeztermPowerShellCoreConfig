@@ -37,14 +37,28 @@
         {
             "command": {
                 "action": "splitPane",
-                "split": "horizontal"
+                "split": "up"
+            },
+            "keys": "ctrl+shift+up"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "down"
             },
             "keys": "ctrl+shift+down"
         },
         {
             "command": {
                 "action": "splitPane",
-                "split": "vertical"
+                "split": "left"
+            },
+            "keys": "ctrl+shift+left"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "right"
             },
             "keys": "ctrl+shift+right"
         },
@@ -81,35 +95,6 @@
             },
             "keys": "alt+right"
         },
-        // Scroll Panes
-        {
-            "command": {
-                "action": "scrollUp"
-            },
-            "keys": "shift+up"
-        },
-        {
-            "command": {
-                "action": "scrollDown"
-            },
-            "keys": "shift+down"
-        },
-        {
-            "command": "scrollToTop",
-            "keys": "ctrl+home"
-        },
-        {
-            "command": "scrollToBottom",
-            "keys": "ctrl+end"
-        },
-        {
-            "command": "scrollUpPage",
-            "keys": "pgup"
-        },
-        {
-            "command": "scrollDownPage",
-            "keys": "pgdn"
-        },
         // Resize Panes
         {
             "command": {
@@ -138,6 +123,64 @@
                 "direction": "right"
             },
             "keys": "ctrl+right"
+        },
+        // Swap Panes
+        {
+            "command": {
+                "action": "swapPane",
+                "direction": "up"
+            },
+            "keys": "ctrl+alt+up"
+        },
+        {
+            "command": {
+                "action": "swapPane",
+                "direction": "down"
+            },
+            "keys": "ctrl+alt+down"
+        },
+        {
+            "command": {
+                "action": "swapPane",
+                "direction": "left"
+            },
+            "keys": "ctrl+alt+left"
+        },
+        {
+            "command": {
+                "action": "swapPane",
+                "direction": "right"
+            },
+            "keys": "ctrl+alt+right"
+        },
+        // Scroll Panes
+        {
+            "command": {
+                "action": "scrollUp"
+            },
+            "keys": "shift+up"
+        },
+        {
+            "command": {
+                "action": "scrollDown"
+            },
+            "keys": "shift+down"
+        },
+        {
+            "command": "scrollUpPage",
+            "keys": "pgup"
+        },
+        {
+            "command": "scrollDownPage",
+            "keys": "pgdn"
+        },
+        {
+            "command": "scrollToTop",
+            "keys": "ctrl+home"
+        },
+        {
+            "command": "scrollToBottom",
+            "keys": "ctrl+end"
         },
         // Manage Clipboard
         {
