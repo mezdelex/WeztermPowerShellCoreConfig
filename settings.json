@@ -39,28 +39,28 @@
                 "action": "splitPane",
                 "split": "up"
             },
-            "keys": "ctrl+shift+up"
+            "keys": "ctrl+alt+up"
         },
         {
             "command": {
                 "action": "splitPane",
                 "split": "down"
             },
-            "keys": "ctrl+shift+down"
+            "keys": "ctrl+alt+down"
         },
         {
             "command": {
                 "action": "splitPane",
                 "split": "left"
             },
-            "keys": "ctrl+shift+left"
+            "keys": "ctrl+alt+left"
         },
         {
             "command": {
                 "action": "splitPane",
                 "split": "right"
             },
-            "keys": "ctrl+shift+right"
+            "keys": "ctrl+alt+right"
         },
         {
             "command": "closePane",
@@ -130,28 +130,28 @@
                 "action": "swapPane",
                 "direction": "up"
             },
-            "keys": "ctrl+alt+up"
+            "keys": "ctrl+shift+up"
         },
         {
             "command": {
                 "action": "swapPane",
                 "direction": "down"
             },
-            "keys": "ctrl+alt+down"
+            "keys": "ctrl+shift+down"
         },
         {
             "command": {
                 "action": "swapPane",
                 "direction": "left"
             },
-            "keys": "ctrl+alt+left"
+            "keys": "ctrl+shift+left"
         },
         {
             "command": {
                 "action": "swapPane",
                 "direction": "right"
             },
-            "keys": "ctrl+alt+right"
+            "keys": "ctrl+shift+right"
         },
         // Scroll Panes
         {
