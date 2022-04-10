@@ -207,7 +207,7 @@
         "defaults": {
             "acrylicOpacity": 1,
             "colorScheme": "Gruvbox Material Dark",
-            "copyFormatting": "none",
+            "copyFormatting": false,
             "copyOnSelect": false,
             "cursorShape": "filledBox",
             "font": {
