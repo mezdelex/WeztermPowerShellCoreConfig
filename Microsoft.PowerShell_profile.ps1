@@ -5,8 +5,8 @@ Set-PoshPrompt -Theme jblab_2021
 Import-Module -Name Terminal-Icons
 
 # PSReadLine
-Set-PSReadLineOption -EditMode Emacs
 Set-PSReadLineOption -BellStyle None
+Set-PSReadLineOption -EditMode Emacs
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 
