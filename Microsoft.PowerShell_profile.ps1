@@ -1,5 +1,5 @@
 # OhMyPosh
-Set-PoshPrompt -Theme jblab_2021
+Set-PoshPrompt -Theme patriksvensson
 
 # Icons
 Import-Module -Name Terminal-Icons
