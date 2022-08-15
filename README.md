@@ -2,7 +2,8 @@
 
 |Resource|URI|Installation|
 -:|:-:|:-
-|OhMyPosh|[url](https://ohmyposh.dev/docs/installation/windows)|"scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json" @ PowerShell w/ scoop
+|OhMyPosh|[url](https://ohmyposh.dev/docs/installation/windows)|"scoop install <https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json>" @ PowerShell w/ scoop
+|Custom Prompt|[url](https://github.com/mezdelex/WindowsTerminalPowershellCoreConfig/blob/main/.mezdelex.omp.json)|Copy ".mezdelex.omp.json" to "home" directory
 |Delugia Font|[url](https://github.com/adam7/delugia-code)|Regular font installation
 |PowerShell|[config](https://github.com/mezdelex/WindowsTerminalPowershellCoreConfig/blob/main/Microsoft.PowerShell_profile.ps1)|"scoop install pwsh" @ Generic Shell w/ scoop & code $profile @ PowerShell
 |Windows Terminal|[config](https://github.com/mezdelex/WindowsTerminalPowershellCoreConfig/blob/main/settings.json)|"scoop install windows-terminal" @ PowerShell w/ scoop & ctrl+, @ Windows Terminal

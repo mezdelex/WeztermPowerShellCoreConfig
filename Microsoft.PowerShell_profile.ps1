@@ -1,5 +1,5 @@
 # OhMyPosh
-oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\patriksvensson.omp.json | Invoke-Expression
+oh-my-posh init pwsh -c ~/.mezdelex.omp.json | Invoke-Expression
 
 # Icons
 Import-Module -Name Terminal-Icons

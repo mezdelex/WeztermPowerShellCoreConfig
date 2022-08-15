@@ -1,0 +1,130 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "blocks": [
+        {
+            "alignment": "left",
+            "newline": true,
+            "segments": [
+                {
+                    "foreground": "red",
+                    "powerline_symbol": "\u276f",
+                    "style": "plain",
+                    "template": "\uf0e7 ",
+                    "type": "root"
+                },
+                {
+                    "foreground": "blue",
+                    "properties": {
+                        "folder_icon": "\ue5ff",
+                        "folder_separator_icon": "/",
+                        "home_icon": "\uf7db",
+                        "style": "agnoster"
+                    },
+                    "style": "plain",
+                    "template": "{{ .Path }}",
+                    "type": "path"
+                },
+                {
+                    "foreground": "green",
+                    "foreground_templates": [
+                        "{{ if or (.Working.Changed) (.Staging.Changed) }}yellow{{ end }}",
+                        "{{ if and (gt .Ahead 0) (gt .Behind 0) }}red{{ end }}",
+                        "{{ if gt .Ahead 0 }}red{{ end }}",
+                        "{{ if gt .Behind 0 }}green{{ end }}"
+                    ],
+                    "properties": {
+                        "fetch_stash_count": true,
+                        "fetch_status": true,
+                        "fetch_upstream_icon": true,
+                        "github_icon": "\uf408 "
+                    },
+                    "style": "plain",
+                    "template": " on {{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }}<red> \uf044 {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<yellow> \uf046 {{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }}",
+                    "type": "git"
+                }
+            ],
+            "type": "prompt"
+        },
+        {
+            "alignment": "right",
+            "segments": [
+                {
+                    "foreground": "magenta",
+                    "style": "plain",
+                    "template": " [C/C++] \ue61e \ue61d cmake {{ .Full }}",
+                    "type": "cmake"
+                },
+                {
+                    "foreground": "magenta",
+                    "style": "plain",
+                    "template": " [.NET] \ue77f {{ .Full }}",
+                    "type": "dotnet"
+                },
+                {
+                    "foreground": "magenta",
+                    "style": "plain",
+                    "template": " [Java] \ue738 {{ .Full }}",
+                    "type": "java"
+                },
+                {
+                    "foreground": "magenta",
+                    "style": "plain",
+                    "template": " [Lua] \ue620 {{ .Full }}",
+                    "type": "lua"
+                },
+                {
+                    "foreground": "magenta",
+                    "style": "plain",
+                    "template": " [Node.js] \ue718 {{ .Full }}",
+                    "type": "node"
+                },
+                {
+                    "foreground": "magenta",
+                    "style": "plain",
+                    "template": " [PHP] \ue73d {{ .Full }}",
+                    "type": "php"
+                },
+                {
+                    "foreground": "magenta",
+                    "style": "plain",
+                    "template": " [Python] \ue235 {{ .Full }}",
+                    "type": "python"
+                }
+            ],
+            "type": "prompt"
+        },
+        {
+            "alignment": "left",
+            "newline": true,
+            "segments": [
+                {
+                    "foreground": "yellow",
+                    "properties": {
+                        "time_format": "15:04:05"
+                    },
+                    "style": "plain",
+                    "template": "{{ .CurrentDate | date .Format }} ",
+                    "type": "time"
+                },
+                {
+                    "foreground": "yellow",
+                    "properties": {
+                        "threshold": 0
+                    },
+                    "style": "plain",
+                    "template": "\ufa1a{{ .FormattedMs }} ",
+                    "type": "executiontime"
+                },
+                {
+                    "foreground": "green",
+                    "style": "plain",
+                    "template": "\u276f",
+                    "type": "text"
+                }
+            ],
+            "type": "prompt"
+        }
+    ],
+    "final_space": true,
+    "version": 2
+}
