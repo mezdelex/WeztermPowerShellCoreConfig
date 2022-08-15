@@ -54,7 +54,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " [C/C++] \ue61e \ue61d cmake {{ .Full }}",
+                    "template": " [CMake] \ue61e/\ue61d {{ .Full }}",
                     "type": "cmake"
                 },
                 {
