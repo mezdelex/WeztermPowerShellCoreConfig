@@ -50,42 +50,63 @@
             "segments": [
                 {
                     "foreground": "magenta",
+                    "properties": {
+                        "display_mode": "files"
+                    },
                     "style": "plain",
                     "template": " [C/C++] \ue61e \ue61d cmake {{ .Full }}",
                     "type": "cmake"
                 },
                 {
                     "foreground": "magenta",
+                    "properties": {
+                        "display_mode": "files"
+                    },
                     "style": "plain",
                     "template": " [.NET] \ue77f {{ .Full }}",
                     "type": "dotnet"
                 },
                 {
                     "foreground": "magenta",
+                    "properties": {
+                        "display_mode": "files"
+                    },
                     "style": "plain",
                     "template": " [Java] \ue738 {{ .Full }}",
                     "type": "java"
                 },
                 {
                     "foreground": "magenta",
+                    "properties": {
+                        "display_mode": "files"
+                    },
                     "style": "plain",
                     "template": " [Lua] \ue620 {{ .Full }}",
                     "type": "lua"
                 },
                 {
                     "foreground": "magenta",
+                    "properties": {
+                        "display_mode": "files"
+                    },
                     "style": "plain",
                     "template": " [Node.js] \ue718 {{ .Full }}",
                     "type": "node"
                 },
                 {
                     "foreground": "magenta",
+                    "properties": {
+                        "display_mode": "files"
+                    },
                     "style": "plain",
                     "template": " [PHP] \ue73d {{ .Full }}",
                     "type": "php"
                 },
                 {
                     "foreground": "magenta",
+                    "properties": {
+                        "display_mode": "files"
+                    },
                     "style": "plain",
                     "template": " [Python] \ue235 {{ .Full }}",
                     "type": "python"
