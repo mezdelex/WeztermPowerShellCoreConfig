@@ -213,7 +213,6 @@
             "font": {
                 "face": "Delugia"
             },
-            "startingDirectory": ".",
             "tabColor": "#665C54",
             "useAcrylic": true,
             "useAcrylicInTabRow": true
