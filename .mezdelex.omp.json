@@ -54,7 +54,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " [CMake] \ue61e/\ue61d {{ .Full }}",
+                    "template": " CMake \ue61e/\ue61d {{ .Full }}",
                     "type": "cmake"
                 },
                 {
@@ -63,7 +63,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " [.NET] \ue77f {{ .Full }}",
+                    "template": " \\.NET \ue77f {{ .Full }}",
                     "type": "dotnet"
                 },
                 {
@@ -72,7 +72,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " [Java] \ue738 {{ .Full }}",
+                    "template": " Java \ue738 {{ .Full }}",
                     "type": "java"
                 },
                 {
@@ -81,7 +81,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " [Lua] \ue620 {{ .Full }}",
+                    "template": " Lua \ue620 {{ .Full }}",
                     "type": "lua"
                 },
                 {
@@ -90,7 +90,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " [Node.js] \ue718 {{ .Full }}",
+                    "template": " Node.js \ue718 {{ .Full }}",
                     "type": "node"
                 },
                 {
@@ -99,7 +99,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " [PHP] \ue73d {{ .Full }}",
+                    "template": " PHP \ue73d {{ .Full }}",
                     "type": "php"
                 },
                 {
@@ -108,7 +108,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " [Python] \ue235 {{ .Full }}",
+                    "template": " Python \ue235 {{ .Full }}",
                     "type": "python"
                 },
                 {
