@@ -110,6 +110,12 @@
                     "style": "plain",
                     "template": " [Python] \ue235 {{ .Full }}",
                     "type": "python"
+                },
+                {
+                    "foreground": "cyan",
+                    "style": "plain",
+                    "template": " RAM \uf85a {{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)) 1000000000) }}/{{ (div .PhysicalTotalMemory 1000000000) }} GB",
+                    "type": "sysinfo"
                 }
             ],
             "type": "prompt"
