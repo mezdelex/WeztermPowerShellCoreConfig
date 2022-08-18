@@ -54,35 +54,8 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " CMake \ue61e/\ue61d {{ .Full }}",
-                    "type": "cmake"
-                },
-                {
-                    "foreground": "magenta",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
                     "template": " \\.NET \ue77f {{ .Full }}",
                     "type": "dotnet"
-                },
-                {
-                    "foreground": "magenta",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " Java \ue738 {{ .Full }}",
-                    "type": "java"
-                },
-                {
-                    "foreground": "magenta",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " Lua \ue620 {{ .Full }}",
-                    "type": "lua"
                 },
                 {
                     "foreground": "magenta",
