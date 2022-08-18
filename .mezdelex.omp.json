@@ -112,6 +112,15 @@
                     "type": "python"
                 },
                 {
+                    "foreground": "magenta",
+                    "properties": {
+                        "display_mode": "files"
+                    },
+                    "style": "plain",
+                    "template": " Rust \uE7a8 {{ .Full }}",
+                    "type": "rust"
+                },
+                {
                     "foreground": "cyan",
                     "style": "plain",
                     "template": " RAM \uf85a {{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)) 1000000000) }}/{{ (div .PhysicalTotalMemory 1000000000) }} GB",
