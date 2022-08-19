@@ -1,5 +1,7 @@
 # Windows Terminal + PowerShell Core Config
 
+## [Reference Color Scheme](https://github.com/sainnhe/gruvbox-material/blob/master/autoload/gruvbox_material.vim)
+
 |Resource|URI|Installation|
 -:|:-:|:-
 |OhMyPosh|[url](https://ohmyposh.dev/docs/installation/windows)|"scoop install <https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json>" @ PowerShell w/ scoop
