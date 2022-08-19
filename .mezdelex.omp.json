@@ -27,7 +27,7 @@
                 {
                     "foreground": "#B8BB26",
                     "foreground_templates": [
-                        "{{ if or (.Working.Changed) (.Staging.Changed) }}#FABD2F{{ end }}",
+                        "{{ if or (.Working.Changed) (.Staging.Changed) }}#D79921{{ end }}",
                         "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#FB4934{{ end }}",
                         "{{ if gt .Ahead 0 }}#FB4934{{ end }}",
                         "{{ if gt .Behind 0 }}#B8BB26{{ end }}"
@@ -39,7 +39,7 @@
                         "github_icon": "\uf408 "
                     },
                     "style": "plain",
-                    "template": " on {{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }} <#FB4934>\uf044 {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} <#FABD2F>\uf046 {{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }}",
+                    "template": " on {{ .UpstreamIcon }}{{ .HEAD }}{{ .BranchStatus }}{{ if .Working.Changed }} <#FB4934>\uf044 {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} <#D79921>\uf046 {{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }}",
                     "type": "git"
                 }
             ],
@@ -107,7 +107,7 @@
             "newline": true,
             "segments": [
                 {
-                    "foreground": "#FABD2F",
+                    "foreground": "#D79921",
                     "properties": {
                         "time_format": "15:04:05"
                     },
@@ -116,7 +116,7 @@
                     "type": "time"
                 },
                 {
-                    "foreground": "#FABD2F",
+                    "foreground": "#D79921",
                     "properties": {
                         "threshold": 0
                     },
