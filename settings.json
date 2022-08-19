@@ -205,7 +205,6 @@
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "profiles": {
         "defaults": {
-            "acrylicOpacity": 1,
             "colorScheme": "Gruvbox Material Dark",
             "copyFormatting": false,
             "copyOnSelect": false,
@@ -213,9 +212,7 @@
             "font": {
                 "face": "Delugia"
             },
-            "tabColor": "#282828",
-            "useAcrylic": true,
-            "useAcrylicInTabRow": true
+            "tabColor": "#282828"
         },
         "list": [
             {
