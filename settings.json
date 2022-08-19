@@ -213,7 +213,7 @@
             "font": {
                 "face": "Delugia"
             },
-            "tabColor": "#665C54",
+            "tabColor": "#504945",
             "useAcrylic": true,
             "useAcrylicInTabRow": true
         },
@@ -234,27 +234,27 @@
     },
     "schemes": [
         {
-            "background": "#32302F",
-            "black": "#665C54",
-            "blue": "#7DAEA3",
-            "brightBlack": "#928374",
-            "brightBlue": "#7DAEA3",
-            "brightCyan": "#89B482",
-            "brightGreen": "#A9B665",
+            "background": "#282828",
+            "black": "#504945",
+            "blue": "#458588",
+            "brightBlack": "#665C54",
+            "brightBlue": "#83A598",
+            "brightCyan": "#8EC07C",
+            "brightGreen": "#B8BB26",
             "brightPurple": "#D3869B",
-            "brightRed": "#EA6962",
-            "brightWhite": "#D4BE98",
-            "brightYellow": "#D8A657",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#89B482",
-            "foreground": "#D4BE98",
-            "green": "#A9B665",
+            "brightRed": "#FB4934",
+            "brightWhite": "#D5C4A1",
+            "brightYellow": "#FABD2F",
+            "cursorColor": "#EBDBB2",
+            "cyan": "#689D6A",
+            "foreground": "#BDAE93",
+            "green": "#98971A",
             "name": "Gruvbox Material Dark",
-            "purple": "#D3869B",
-            "red": "#EA6962",
-            "selectionBackground": "#FFFFFF",
-            "white": "#D4BE98",
-            "yellow": "#D8A657"
+            "purple": "#B16286",
+            "red": "#CC241D",
+            "selectionBackground": "#665C54",
+            "white": "#BDAE93",
+            "yellow": "#D79921"
         }
     ]
 }
