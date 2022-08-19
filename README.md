@@ -1,6 +1,6 @@
 # Windows Terminal + PowerShell Core Config
 
-## [Reference Color Scheme](https://github.com/sainnhe/gruvbox-material/blob/master/autoload/gruvbox_material.vim)
+[Color Scheme](https://github.com/sainnhe/gruvbox-material/blob/master/autoload/gruvbox_material.vim)
 
 |Resource|URI|Installation|
 -:|:-:|:-
