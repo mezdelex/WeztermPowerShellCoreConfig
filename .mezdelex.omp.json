@@ -54,7 +54,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " \\.NET \ue77f {{ .Full }}",
+                    "template": " DotNET[\ue77f]{{ .Full }}",
                     "type": "dotnet"
                 },
                 {
@@ -63,7 +63,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " Node.js \ue718 {{ .Full }}",
+                    "template": " NodeJS[\ue718]{{ .Full }}",
                     "type": "node"
                 },
                 {
@@ -72,7 +72,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " PHP \ue73d {{ .Full }}",
+                    "template": " PHP[\ue73d]{{ .Full }}",
                     "type": "php"
                 },
                 {
@@ -81,7 +81,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " Python \ue235 {{ .Full }}",
+                    "template": " Python[\ue235]{{ .Full }}",
                     "type": "python"
                 },
                 {
@@ -90,13 +90,13 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " Rust \uE7a8 {{ .Full }}",
+                    "template": " Rust[\uE7a8]{{ .Full }}",
                     "type": "rust"
                 },
                 {
                     "foreground": "#89b482",
                     "style": "plain",
-                    "template": " RAM \uf85a {{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)) 1000000000) }}/{{ (div .PhysicalTotalMemory 1000000000) }} GB",
+                    "template": " RAM[\uf85a]{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)) 1000000000) }}/{{ (div .PhysicalTotalMemory 1000000000) }}GB",
                     "type": "sysinfo"
                 }
             ],
