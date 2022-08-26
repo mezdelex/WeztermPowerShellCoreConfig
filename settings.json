@@ -1,39 +1,25 @@
 {
     "actions": [
-        // Open Settings
+        // Clipboard Management
         {
             "command": {
-                "action": "openSettings"
+                "action": "cut",
+                "singleLine": false
             },
-            "keys": "ctrl+comma"
+            "keys": "ctrl+x"
         },
         {
             "command": {
-                "action": "openSettings",
-                "target": "defaultsFile"
+                "action": "copy",
+                "singleLine": false
             },
-            "keys": "ctrl+alt+comma"
-        },
-        // Manage Tabs
-        {
-            "command": {
-                "action": "newTab"
-            },
-            "keys": "ctrl+t"
+            "keys": "ctrl+c"
         },
         {
-            "command": {
-                "action": "nextTab"
-            },
-            "keys": "ctrl+tab"
+            "command": "paste",
+            "keys": "ctrl+v"
         },
-        {
-            "command": {
-                "action": "prevTab"
-            },
-            "keys": "ctrl+shift+tab"
-        },
-        // Manage Panes
+        // Panes Management
         {
             "command": {
                 "action": "splitPane",
@@ -66,36 +52,7 @@
             "command": "closePane",
             "keys": "ctrl+w"
         },
-        // Select Panes
-        {
-            "command": {
-                "action": "moveFocus",
-                "direction": "up"
-            },
-            "keys": "alt+up"
-        },
-        {
-            "command": {
-                "action": "moveFocus",
-                "direction": "down"
-            },
-            "keys": "alt+down"
-        },
-        {
-            "command": {
-                "action": "moveFocus",
-                "direction": "left"
-            },
-            "keys": "alt+left"
-        },
-        {
-            "command": {
-                "action": "moveFocus",
-                "direction": "right"
-            },
-            "keys": "alt+right"
-        },
-        // Resize Panes
+        // Panes Resizing
         {
             "command": {
                 "action": "resizePane",
@@ -124,36 +81,7 @@
             },
             "keys": "ctrl+right"
         },
-        // Swap Panes
-        {
-            "command": {
-                "action": "swapPane",
-                "direction": "up"
-            },
-            "keys": "ctrl+shift+up"
-        },
-        {
-            "command": {
-                "action": "swapPane",
-                "direction": "down"
-            },
-            "keys": "ctrl+shift+down"
-        },
-        {
-            "command": {
-                "action": "swapPane",
-                "direction": "left"
-            },
-            "keys": "ctrl+shift+left"
-        },
-        {
-            "command": {
-                "action": "swapPane",
-                "direction": "right"
-            },
-            "keys": "ctrl+shift+right"
-        },
-        // Scroll Panes
+        // Panes Scrolling
         {
             "command": {
                 "action": "scrollUp"
@@ -182,24 +110,96 @@
             "command": "scrollToBottom",
             "keys": "ctrl+end"
         },
-        // Manage Clipboard
+        // Panes Selection
         {
             "command": {
-                "action": "cut",
-                "singleLine": false
+                "action": "moveFocus",
+                "direction": "up"
             },
-            "keys": "ctrl+x"
+            "keys": "alt+up"
         },
         {
             "command": {
-                "action": "copy",
-                "singleLine": false
+                "action": "moveFocus",
+                "direction": "down"
             },
-            "keys": "ctrl+c"
+            "keys": "alt+down"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
+            "command": {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "keys": "alt+left"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "keys": "alt+right"
+        },
+        // Panes Swapping
+        {
+            "command": {
+                "action": "swapPane",
+                "direction": "up"
+            },
+            "keys": "ctrl+shift+up"
+        },
+        {
+            "command": {
+                "action": "swapPane",
+                "direction": "down"
+            },
+            "keys": "ctrl+shift+down"
+        },
+        {
+            "command": {
+                "action": "swapPane",
+                "direction": "left"
+            },
+            "keys": "ctrl+shift+left"
+        },
+        {
+            "command": {
+                "action": "swapPane",
+                "direction": "right"
+            },
+            "keys": "ctrl+shift+right"
+        },
+        // Settings
+        {
+            "command": {
+                "action": "openSettings"
+            },
+            "keys": "ctrl+comma"
+        },
+        {
+            "command": {
+                "action": "openSettings",
+                "target": "defaultsFile"
+            },
+            "keys": "ctrl+alt+comma"
+        },
+        // Tabs Management
+        {
+            "command": {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
+        },
+        {
+            "command": {
+                "action": "nextTab"
+            },
+            "keys": "ctrl+tab"
+        },
+        {
+            "command": {
+                "action": "prevTab"
+            },
+            "keys": "ctrl+shift+tab"
         }
     ],
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
