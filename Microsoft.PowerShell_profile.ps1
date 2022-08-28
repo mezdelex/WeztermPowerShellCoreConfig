@@ -6,7 +6,8 @@ oh-my-posh init pwsh -c ~/.mezdelex.omp.json | Invoke-Expression
 
 # PSFzf
 Import-Module PSFzf
-Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
+Set-PsFzfOption -PSReadlineChordProvider "ctrl+f"
+Set-PsFzfOption -PSReadlineChordReverseHistory "ctrl+r"
 
 # PSReadLine
 Set-PSReadLineOption -BellStyle None
