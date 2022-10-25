@@ -1,259 +1,259 @@
 {
-    "actions": [
-        // Clipboard Management
-        {
-            "command": {
-                "action": "cut",
-                "singleLine": false
-            },
-            "keys": "ctrl+x"
-        },
-        {
-            "command": {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        // Panes Management
-        {
-            "command": {
-                "action": "splitPane",
-                "split": "up"
-            },
-            "keys": "ctrl+alt+up"
-        },
-        {
-            "command": {
-                "action": "splitPane",
-                "split": "down"
-            },
-            "keys": "ctrl+alt+down"
-        },
-        {
-            "command": {
-                "action": "splitPane",
-                "split": "left"
-            },
-            "keys": "ctrl+alt+left"
-        },
-        {
-            "command": {
-                "action": "splitPane",
-                "split": "right"
-            },
-            "keys": "ctrl+alt+right"
-        },
-        {
-            "command": "closePane",
-            "keys": "ctrl+w"
-        },
-        // Panes Resizing
-        {
-            "command": {
-                "action": "resizePane",
-                "direction": "up"
-            },
-            "keys": "ctrl+up"
-        },
-        {
-            "command": {
-                "action": "resizePane",
-                "direction": "down"
-            },
-            "keys": "ctrl+down"
-        },
-        {
-            "command": {
-                "action": "resizePane",
-                "direction": "left"
-            },
-            "keys": "ctrl+left"
-        },
-        {
-            "command": {
-                "action": "resizePane",
-                "direction": "right"
-            },
-            "keys": "ctrl+right"
-        },
-        // Panes Scrolling
-        {
-            "command": {
-                "action": "scrollUp"
-            },
-            "keys": "shift+up"
-        },
-        {
-            "command": {
-                "action": "scrollDown"
-            },
-            "keys": "shift+down"
-        },
-        {
-            "command": "scrollUpPage",
-            "keys": "pgup"
-        },
-        {
-            "command": "scrollDownPage",
-            "keys": "pgdn"
-        },
-        {
-            "command": "scrollToTop",
-            "keys": "ctrl+home"
-        },
-        {
-            "command": "scrollToBottom",
-            "keys": "ctrl+end"
-        },
-        // Panes Selection
-        {
-            "command": {
-                "action": "moveFocus",
-                "direction": "up"
-            },
-            "keys": "alt+up"
-        },
-        {
-            "command": {
-                "action": "moveFocus",
-                "direction": "down"
-            },
-            "keys": "alt+down"
-        },
-        {
-            "command": {
-                "action": "moveFocus",
-                "direction": "left"
-            },
-            "keys": "alt+left"
-        },
-        {
-            "command": {
-                "action": "moveFocus",
-                "direction": "right"
-            },
-            "keys": "alt+right"
-        },
-        // Panes Swapping
-        {
-            "command": {
-                "action": "swapPane",
-                "direction": "up"
-            },
-            "keys": "ctrl+shift+up"
-        },
-        {
-            "command": {
-                "action": "swapPane",
-                "direction": "down"
-            },
-            "keys": "ctrl+shift+down"
-        },
-        {
-            "command": {
-                "action": "swapPane",
-                "direction": "left"
-            },
-            "keys": "ctrl+shift+left"
-        },
-        {
-            "command": {
-                "action": "swapPane",
-                "direction": "right"
-            },
-            "keys": "ctrl+shift+right"
-        },
-        // Settings
-        {
-            "command": {
-                "action": "openSettings"
-            },
-            "keys": "ctrl+comma"
-        },
-        {
-            "command": {
-                "action": "openSettings",
-                "target": "defaultsFile"
-            },
-            "keys": "ctrl+alt+comma"
-        },
-        // Tabs Management
-        {
-            "command": {
-                "action": "newTab"
-            },
-            "keys": "ctrl+t"
-        },
-        {
-            "command": {
-                "action": "nextTab"
-            },
-            "keys": "ctrl+tab"
-        },
-        {
-            "command": {
-                "action": "prevTab"
-            },
-            "keys": "ctrl+shift+tab"
-        }
-    ],
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "profiles": {
-        "defaults": {
-            "colorScheme": "Gruvbox Material Dark",
-            "copyFormatting": false,
-            "copyOnSelect": false,
-            "cursorShape": "filledBox",
-            "font": {
-                "face": "Delugia"
-            },
-            "tabColor": "#282828"
-        },
-        "list": [
-            {
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
-            },
-            {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            }
-        ]
+  "actions": [
+    // Clipboard Management
+    {
+      "command": {
+        "action": "cut",
+        "singleLine": false
+      },
+      "keys": "ctrl+x"
     },
-    "schemes": [
-        {
-            "background": "#282828",
-            "black": "#928374",
-            "blue": "#7daea3",
-            "brightBlack": "#928374",
-            "brightBlue": "#7daea3",
-            "brightCyan": "#89b482",
-            "brightGreen": "#a9b665",
-            "brightOrange": "e78a4e",
-            "brightPurple": "#d3869b",
-            "brightRed": "#ea6962",
-            "brightWhite": "#ddc7a1",
-            "brightYellow": "#d8a657",
-            "cursorColor": "#ddc7a1",
-            "cyan": "#89b482",
-            "foreground": "#d4be98",
-            "green": "#a9b665",
-            "name": "Gruvbox Material Dark",
-            "orange": "e78a4e",
-            "purple": "#d3869b",
-            "red": "#ea6962",
-            "selectionBackground": "#7c6f64",
-            "white": "#ddc7a1",
-            "yellow": "#d8a657"
-        }
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "keys": "ctrl+c"
+    },
+    {
+      "command": "paste",
+      "keys": "ctrl+v"
+    },
+    // Panes Management
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "up"
+      },
+      "keys": "ctrl+alt+up"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "down"
+      },
+      "keys": "ctrl+alt+down"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "left"
+      },
+      "keys": "ctrl+alt+left"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "right"
+      },
+      "keys": "ctrl+alt+right"
+    },
+    {
+      "command": "closePane",
+      "keys": "ctrl+w"
+    },
+    // Panes Resizing
+    {
+      "command": {
+        "action": "resizePane",
+        "direction": "up"
+      },
+      "keys": "ctrl+up"
+    },
+    {
+      "command": {
+        "action": "resizePane",
+        "direction": "down"
+      },
+      "keys": "ctrl+down"
+    },
+    {
+      "command": {
+        "action": "resizePane",
+        "direction": "left"
+      },
+      "keys": "ctrl+left"
+    },
+    {
+      "command": {
+        "action": "resizePane",
+        "direction": "right"
+      },
+      "keys": "ctrl+right"
+    },
+    // Panes Scrolling
+    {
+      "command": {
+        "action": "scrollUp"
+      },
+      "keys": "shift+up"
+    },
+    {
+      "command": {
+        "action": "scrollDown"
+      },
+      "keys": "shift+down"
+    },
+    {
+      "command": "scrollUpPage",
+      "keys": "pgup"
+    },
+    {
+      "command": "scrollDownPage",
+      "keys": "pgdn"
+    },
+    {
+      "command": "scrollToTop",
+      "keys": "ctrl+home"
+    },
+    {
+      "command": "scrollToBottom",
+      "keys": "ctrl+end"
+    },
+    // Panes Selection
+    {
+      "command": {
+        "action": "moveFocus",
+        "direction": "up"
+      },
+      "keys": "alt+up"
+    },
+    {
+      "command": {
+        "action": "moveFocus",
+        "direction": "down"
+      },
+      "keys": "alt+down"
+    },
+    {
+      "command": {
+        "action": "moveFocus",
+        "direction": "left"
+      },
+      "keys": "alt+left"
+    },
+    {
+      "command": {
+        "action": "moveFocus",
+        "direction": "right"
+      },
+      "keys": "alt+right"
+    },
+    // Panes Swapping
+    {
+      "command": {
+        "action": "swapPane",
+        "direction": "up"
+      },
+      "keys": "ctrl+shift+up"
+    },
+    {
+      "command": {
+        "action": "swapPane",
+        "direction": "down"
+      },
+      "keys": "ctrl+shift+down"
+    },
+    {
+      "command": {
+        "action": "swapPane",
+        "direction": "left"
+      },
+      "keys": "ctrl+shift+left"
+    },
+    {
+      "command": {
+        "action": "swapPane",
+        "direction": "right"
+      },
+      "keys": "ctrl+shift+right"
+    },
+    // Settings
+    {
+      "command": {
+        "action": "openSettings"
+      },
+      "keys": "ctrl+comma"
+    },
+    {
+      "command": {
+        "action": "openSettings",
+        "target": "defaultsFile"
+      },
+      "keys": "ctrl+alt+comma"
+    },
+    // Tabs Management
+    {
+      "command": {
+        "action": "newTab"
+      },
+      "keys": "ctrl+t"
+    },
+    {
+      "command": {
+        "action": "nextTab"
+      },
+      "keys": "ctrl+tab"
+    },
+    {
+      "command": {
+        "action": "prevTab"
+      },
+      "keys": "ctrl+shift+tab"
+    }
+  ],
+  "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+  "profiles": {
+    "defaults": {
+      "colorScheme": "Gruvbox Dark Medium",
+      "copyFormatting": false,
+      "copyOnSelect": false,
+      "cursorShape": "filledBox",
+      "font": {
+        "face": "Delugia"
+      },
+      "tabColor": "#282828"
+    },
+    "list": [
+      {
+        "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+        "hidden": false,
+        "name": "PowerShell",
+        "source": "Windows.Terminal.PowershellCore"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": false,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
+      }
     ]
+  },
+  "schemes": [
+    {
+      "background": "#282828",
+      "black": "#928374",
+      "blue": "#83a598",
+      "brightBlack": "#928374",
+      "brightBlue": "#83a598",
+      "brightCyan": "#8ec07c",
+      "brightGreen": "#b8bb26",
+      "brightOrange": "fe8019",
+      "brightPurple": "#d3869b",
+      "brightRed": "#fb4934",
+      "brightWhite": "#d5c4a1",
+      "brightYellow": "#fabd2f",
+      "cursorColor": "#d5c4a1",
+      "cyan": "#8ec07c",
+      "foreground": "#a89984",
+      "green": "#b8bb26",
+      "name": "Gruvbox Dark Medium",
+      "orange": "fe8019",
+      "purple": "#d3869b",
+      "red": "#fb4934",
+      "selectionBackground": "#7c6f64",
+      "white": "#d5c4a1",
+      "yellow": "#fabd2f"
+    }
+  ]
 }
