@@ -226,6 +226,12 @@
         "hidden": false,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure"
+      },
+      {
+        "guid": "{1777cdf0-b2c4-5a63-a204-eb60f349ea7c}",
+        "hidden": false,
+        "name": "Alpine",
+        "source": "Windows.Terminal.Wsl"
       }
     ]
   },
