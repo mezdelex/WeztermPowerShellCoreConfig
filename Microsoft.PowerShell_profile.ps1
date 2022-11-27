@@ -5,7 +5,7 @@ Import-Module -Name Terminal-Icons
 
 # Options
 Set-PSReadLineOption -BellStyle None
-Set-PSReadLineOption -EditMode Emacs
+Set-PSReadLineOption -EditMode Windows
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 
