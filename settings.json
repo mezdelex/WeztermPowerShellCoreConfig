@@ -199,10 +199,10 @@
         "source": "Windows.Terminal.Azure"
       },
       {
-        "guid": "{1777cdf0-b2c4-5a63-a204-eb60f349ea7c}",
+        "guid": "{f9ceaf27-504c-58d7-927c-d1d6a7ac7d3c}",
         "hidden": false,
-        "name": "Alpine",
-        "source": "Windows.Terminal.Wsl"
+        "name": "Ubuntu 22.04.1 LTS",
+        "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
       }
     ]
   },
