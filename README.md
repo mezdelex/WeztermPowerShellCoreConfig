@@ -8,10 +8,9 @@ Custom Prompt|[prompt](https://github.com/mezdelex/WindowsTerminalPowershellCore
 Delugia Font|[font](https://github.com/adam7/delugia-code)|Regular font installation
 PowerShell|[config](https://github.com/mezdelex/WindowsTerminalPowershellCoreConfig/blob/main/Microsoft.PowerShell_profile.ps1)|"scoop install pwsh" @ Generic Shell w/ scoop & code $profile @ PowerShell
 Windows Terminal|[config](https://github.com/mezdelex/WindowsTerminalPowershellCoreConfig/blob/main/settings.json)|"scoop install windows-terminal" @ PowerShell w/ scoop & ctrl+, @ Windows Terminal
-Terminal Icons|n/a|"Install-Module -Name Terminal-Icons -Repository PSGallery -Force" @ PowerShell
-Z Directory Jumper|n/a|"Install-Module -Name z -Force" @ PowerShell
-PSReadLine Autocompletion|n/a|<s>"Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck" @ PowerShell</s>
-FuzzyFinder|n/a|"scoop install fzf" @ PowerShell w/ scoop & "Install-Module -Name PSFzf -Scope CurrentUser -Force" @ PowerShell
-Update Modules|n/a|"Update-Module -Name {Module-Name}" @ PowerShell
+Terminal Icons|n/a|"scoop install terminal-icons" @ PowerShell w/ scoop
+Z Directory Jumper|n/a|"scoop install z" @ PowerShell w/ scoop
+PSReadLine Autocompletion|n/a|"scoop install psreadline" @ PowerShell w/ scoop
+FuzzyFinder|n/a|"scoop install fzf" @ PowerShell w/ scoop & "scoop install psfzf" @ PowerShell w/ scoop
 
 That's it :)
