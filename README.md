@@ -2,7 +2,7 @@
 
 Resource|URI|Description
 |:-:|:-:|:-:|
-OhMyPosh|[web](https://ohmyposh.dev/docs/installation/windows)|"scoop install oh-my-posh" @ PowerShell w/ scoop
+Oh My Posh|[web](https://ohmyposh.dev/docs/installation/windows)|"scoop install oh-my-posh" @ PowerShell w/ scoop
 Color Scheme|[scheme](https://github.com/morhetz/gruvbox/blob/master/colors/gruvbox.vim)|Reference color scheme for consistency
 Custom Prompt|[prompt](https://github.com/mezdelex/WindowsTerminalPowershellCoreConfig/blob/main/.mezdelex.omp.json)|Copy ".mezdelex.omp.json" to "home" directory
 Delugia Font|[font](https://github.com/adam7/delugia-code)|Regular font installation
