@@ -54,8 +54,26 @@
             "display_mode": "files"
           },
           "style": "plain",
+          "template": " Angular[\ue753]{{ .Full }}",
+          "type": "angular"
+        },
+        {
+          "foreground": "#d3869b",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
           "template": " DotNET[\ue77f]{{ .Full }}",
           "type": "dotnet"
+        },
+        {
+          "foreground": "#d3869b",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " Java[\ue738]{{ .Full }}",
+          "type": "java"
         },
         {
           "foreground": "#d3869b",
