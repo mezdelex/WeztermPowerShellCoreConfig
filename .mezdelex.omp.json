@@ -63,8 +63,17 @@
             "display_mode": "files"
           },
           "style": "plain",
-          "template": " DotNET[\ue77f]{{ .Full }}",
+          "template": " Dotnet[\ue77f]{{ .Full }}",
           "type": "dotnet"
+        },
+        {
+          "foreground": "#d3869b",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " Flutter[\ue28e]{{ .Full }}",
+          "type": "flutter"
         },
         {
           "foreground": "#d3869b",
@@ -81,7 +90,25 @@
             "display_mode": "files"
           },
           "style": "plain",
-          "template": " NodeJS[\ue718]{{ .Full }}",
+          "template": " Kotlin[\ufa05]{{ .Full }}",
+          "type": "kotlin"
+        },
+        {
+          "foreground": "#d3869b",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " Lua[\ue620]{{ .Full }}",
+          "type": "lua"
+        },
+        {
+          "foreground": "#d3869b",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " Node[\ue718]{{ .Full }}",
           "type": "node"
         },
         {
