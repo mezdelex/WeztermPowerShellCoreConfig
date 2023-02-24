@@ -197,12 +197,6 @@
         "hidden": false,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure"
-      },
-      {
-        "guid": "{f9ceaf27-504c-58d7-927c-d1d6a7ac7d3c}",
-        "hidden": false,
-        "name": "Ubuntu 22.04.1 LTS",
-        "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
       }
     ]
   },
