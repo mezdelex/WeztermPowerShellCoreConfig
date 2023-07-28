@@ -81,6 +81,15 @@
             "display_mode": "files"
           },
           "style": "plain",
+          "template": " Haskell[\ue777]{{ .Full }}",
+          "type": "haskell"
+        },
+        {
+          "foreground": "#d3869b",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
           "template": " Java[\ue738]{{ .Full }}",
           "type": "java"
         },
