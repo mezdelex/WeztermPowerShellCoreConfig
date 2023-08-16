@@ -58,28 +58,28 @@
                 "action": "resizePane",
                 "direction": "up"
             },
-            "keys": "ctrl+shift+up"
+            "keys": "alt+shift+up"
         },
         {
             "command": {
                 "action": "resizePane",
                 "direction": "down"
             },
-            "keys": "ctrl+shift+down"
+            "keys": "alt+shift+down"
         },
         {
             "command": {
                 "action": "resizePane",
                 "direction": "left"
             },
-            "keys": "ctrl+shift+left"
+            "keys": "alt+shift+left"
         },
         {
             "command": {
                 "action": "resizePane",
                 "direction": "right"
             },
-            "keys": "ctrl+shift+right"
+            "keys": "alt+shift+right"
         },
         // Panes Scrolling
         {
