@@ -14,4 +14,8 @@
 |       Custom Prompt       |        [prompt](https://github.com/mezdelex/WindowsTerminalPowershellCoreConfig/blob/main/.mezdelex.omp.json)        |                               Copy `.mezdelex.omp.json` to `~` directory                                     |
 |       Color Scheme        |                     [scheme](https://github.com/morhetz/gruvbox/blob/master/colors/gruvbox.vim)                      |                                  Reference color scheme for consistency                                      |
 
-That's it :)
+## Images
+
+![image](https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig/assets/59997405/846c3868-835d-4c0f-9f72-bb745d14884b)
+
+![image](https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig/assets/59997405/afc5daa3-f626-40fd-9013-1636b680c028)
