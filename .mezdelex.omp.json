@@ -81,6 +81,15 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
+                    "template": " Go[\ue65e]{{ .Full }}",
+                    "type": "go"
+                },
+                {
+                    "foreground": "#d3869b",
+                    "properties": {
+                        "display_mode": "files"
+                    },
+                    "style": "plain",
                     "template": " Haskell[\ue777]{{ .Full }}",
                     "type": "haskell"
                 },
@@ -144,7 +153,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " Rust[\uE7a8]{{ .Full }}",
+                    "template": " Rust[\ue7a8]{{ .Full }}",
                     "type": "rust"
                 },
                 {
