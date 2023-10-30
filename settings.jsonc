@@ -176,14 +176,13 @@
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "profiles": {
         "defaults": {
-            "colorScheme": "Gruvbox Dark Medium",
+            "colorScheme": "Catppuccin Mocha",
             "copyFormatting": false,
             "copyOnSelect": false,
             "cursorShape": "filledBox",
             "font": {
                 "face": "Delugia"
-            },
-            "tabColor": "#282828"
+            }
         },
         "list": [
             {
@@ -202,29 +201,44 @@
     },
     "schemes": [
         {
-            "background": "#282828",
-            "black": "#928374",
-            "blue": "#83a598",
-            "brightBlack": "#928374",
-            "brightBlue": "#83a598",
-            "brightCyan": "#8ec07c",
-            "brightGreen": "#b8bb26",
-            "brightOrange": "fe8019",
-            "brightPurple": "#d3869b",
-            "brightRed": "#fb4934",
-            "brightWhite": "#d5c4a1",
-            "brightYellow": "#fabd2f",
-            "cursorColor": "#d5c4a1",
-            "cyan": "#8ec07c",
-            "foreground": "#a89984",
-            "green": "#b8bb26",
-            "name": "Gruvbox Dark Medium",
-            "orange": "fe8019",
-            "purple": "#d3869b",
-            "red": "#fb4934",
-            "selectionBackground": "#7c6f64",
-            "white": "#d5c4a1",
-            "yellow": "#fabd2f"
+            "background": "#1E1E2E",
+            "black": "#45475A",
+            "blue": "#89B4FA",
+            "brightBlack": "#585B70",
+            "brightBlue": "#89B4FA",
+            "brightCyan": "#94E2D5",
+            "brightGreen": "#A6E3A1",
+            "brightPurple": "#F5C2E7",
+            "brightRed": "#F38BA8",
+            "brightWhite": "#A6ADC8",
+            "brightYellow": "#F9E2AF",
+            "cursorColor": "#F5E0DC",
+            "cyan": "#94E2D5",
+            "foreground": "#CDD6F4",
+            "green": "#A6E3A1",
+            "name": "Catppuccin Mocha",
+            "purple": "#F5C2E7",
+            "red": "#F38BA8",
+            "selectionBackground": "#585B70",
+            "white": "#BAC2DE",
+            "yellow": "#F9E2AF"
+        }
+    ],
+    "theme": "Catppuccin Mocha",
+    "themes": [
+        {
+            "name": "Catppuccin Mocha",
+            "tab": {
+                "background": "#1E1E2E",
+                "showCloseButton": "never"
+            },
+            "tabRow": {
+                "background": "#181825",
+                "unfocusedBackground": "#11111B"
+            },
+            "window": {
+                "applicationTheme": "dark"
+            }
         }
     ]
 }
