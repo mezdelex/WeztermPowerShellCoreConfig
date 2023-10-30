@@ -25,7 +25,7 @@
                     "type": "path"
                 },
                 {
-                    "foreground": "#F9E2AF",
+                    "foreground": "#A6E3A1",
                     "foreground_templates": [
                         "{{ if or (.Working.Changed) (.Staging.Changed) }}#F9E2AF{{ end }}",
                         "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#F38BA8{{ end }}",
@@ -188,7 +188,7 @@
                     "type": "executiontime"
                 },
                 {
-                    "foreground": "#A6E3A1",
+                    "foreground": "#89B4FA",
                     "style": "plain",
                     "template": "\u276f",
                     "type": "text"

@@ -14,7 +14,4 @@
 |        FuzzyFinder        |                                                         n/a                                                          |          `scoop install fzf` @ PowerShell w/ scoop & `scoop install psfzf` @ PowerShell w/ scoop             |
 
 ## Images
-
-![image](https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig/assets/59997405/846c3868-835d-4c0f-9f72-bb745d14884b)
-
-![image](https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig/assets/59997405/afc5daa3-f626-40fd-9013-1636b680c028)
+![image](https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig/assets/59997405/87f6703c-afb6-4c06-b05d-164b3a69222e)
