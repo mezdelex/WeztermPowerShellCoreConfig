@@ -180,9 +180,7 @@
             "copyFormatting": false,
             "copyOnSelect": false,
             "cursorShape": "filledBox",
-            "font": {
-                "face": "Delugia"
-            }
+            "fontFace": "Delugia"
         },
         "list": [
             {
