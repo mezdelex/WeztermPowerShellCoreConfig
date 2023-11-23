@@ -12,6 +12,8 @@
 |    Z Directory Jumper     |                                                         n/a                                                          |                                  `scoop install z` @ PowerShell w/ scoop                                     |
 | PSReadLine Autocompletion |                                                         n/a                                                          |                             `scoop install psreadline` @ PowerShell w/ scoop                                 |
 |        FuzzyFinder        |                                                         n/a                                                          |          `scoop install fzf` @ PowerShell w/ scoop & `scoop install psfzf` @ PowerShell w/ scoop             |
+|     LF File Manager       |                                                         n/a                                                          |                                 `scoop install lf` @ PowerShell w/ scoop                                     |
+|         Lazygit           |                                                         n/a                                                          |                               `scoop install lazygit` @ PowerShell w/ scoop                                  |
 
 ## Images
 ![image](https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig/assets/59997405/87f6703c-afb6-4c06-b05d-164b3a69222e)
