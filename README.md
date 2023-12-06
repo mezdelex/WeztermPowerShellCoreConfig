@@ -17,4 +17,3 @@
 
 ## Images
 ![image](https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig/assets/59997405/7f07b3f0-0a95-4dd4-8d25-0bece6107b71)
-
