@@ -16,4 +16,5 @@
 |         Lazygit           |                                                         n/a                                                          |                               `scoop install lazygit` @ PowerShell w/ scoop                                  |
 
 ## Images
-![image](https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig/assets/59997405/87f6703c-afb6-4c06-b05d-164b3a69222e)
+![image](https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig/assets/59997405/7f07b3f0-0a95-4dd4-8d25-0bece6107b71)
+
