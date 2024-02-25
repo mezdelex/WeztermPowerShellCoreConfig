@@ -16,7 +16,9 @@
             "keys": "ctrl+c"
         },
         {
-            "command": "paste",
+            "command": {
+                "action": "paste"
+            },
             "keys": "ctrl+v"
         },
         // Panes Management
@@ -49,7 +51,9 @@
             "keys": "ctrl+alt+right"
         },
         {
-            "command": "closePane",
+            "command": {
+                "action": "closePane"
+            },
             "keys": "ctrl+w"
         },
         // Panes Resizing
@@ -95,19 +99,27 @@
             "keys": "shift+down"
         },
         {
-            "command": "scrollUpPage",
+            "command": {
+                "action": "scrollUpPage"
+            },
             "keys": "pgup"
         },
         {
-            "command": "scrollDownPage",
+            "command": {
+                "action": "scrollDownPage"
+            },
             "keys": "pgdn"
         },
         {
-            "command": "scrollToTop",
+            "command": {
+                "action": "scrollToTop"
+            },
             "keys": "ctrl+home"
         },
         {
-            "command": "scrollToBottom",
+            "command": {
+                "action": "scrollToBottom"
+            },
             "keys": "ctrl+end"
         },
         // Panes Selection

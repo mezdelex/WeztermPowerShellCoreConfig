@@ -1,8 +1,7 @@
-Import-Module -Name PSFzf
-Import-Module -Name PSReadLine
 Import-Module -Name Terminal-Icons
 
-Invoke-Expression (&oh-my-posh init pwsh -c ~/.mezdelex.omp.json)
+Invoke-Expression (&oh-my-posh init powershell -c ~/.mezdelex.omp.json)
+Invoke-Expression (&{(zoxide init powershell | Out-String)})
 
 Set-PSReadLineOption -BellStyle None
 Set-PSReadLineOption -EditMode Vi
