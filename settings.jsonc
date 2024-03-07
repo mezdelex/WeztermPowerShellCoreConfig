@@ -188,7 +188,7 @@
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "profiles": {
         "defaults": {
-            "colorScheme": "Catppuccin Mocha",
+            "colorScheme": "Gruvbox",
             "copyFormatting": false,
             "copyOnSelect": false,
             "cursorShape": "filledBox",
@@ -211,40 +211,40 @@
     },
     "schemes": [
         {
-            "background": "#1E1E2E",
-            "black": "#45475A",
-            "blue": "#89B4FA",
-            "brightBlack": "#585B70",
-            "brightBlue": "#89B4FA",
-            "brightCyan": "#94E2D5",
-            "brightGreen": "#A6E3A1",
-            "brightPurple": "#F5C2E7",
-            "brightRed": "#F38BA8",
-            "brightWhite": "#A6ADC8",
-            "brightYellow": "#F9E2AF",
-            "cursorColor": "#F5E0DC",
-            "cyan": "#94E2D5",
-            "foreground": "#BAC2DE",
-            "green": "#A6E3A1",
-            "name": "Catppuccin Mocha",
-            "purple": "#F5C2E7",
-            "red": "#F38BA8",
-            "selectionBackground": "#585B70",
-            "white": "#BAC2DE",
-            "yellow": "#F9E2AF"
+            "background": "#282828",
+            "black": "#3C3836",
+            "blue": "#458588",
+            "brightBlack": "#504945",
+            "brightBlue": "#83A598",
+            "brightCyan": "#8EC07C",
+            "brightGreen": "#B8BB26",
+            "brightPurple": "#D3869B",
+            "brightRed": "#FB4934",
+            "brightWhite": "#BDAE93",
+            "brightYellow": "#FABD2F",
+            "cursorColor": "#BDAE93",
+            "cyan": "#689D6A",
+            "foreground": "#A89984",
+            "green": "#98971A",
+            "name": "Gruvbox",
+            "purple": "#B16286",
+            "red": "#CC241D",
+            "selectionBackground": "#928374",
+            "white": "#A89984",
+            "yellow": "#D79921"
         }
     ],
-    "theme": "Catppuccin Mocha",
+    "theme": "Gruvbox",
     "themes": [
         {
-            "name": "Catppuccin Mocha",
+            "name": "Gruvbox",
             "tab": {
-                "background": "#1E1E2E",
+                "background": "#282828",
                 "showCloseButton": "never"
             },
             "tabRow": {
-                "background": "#181825",
-                "unfocusedBackground": "#11111B"
+                "background": "#3C3836",
+                "unfocusedBackground": "#3C3836"
             },
             "window": {
                 "applicationTheme": "dark"

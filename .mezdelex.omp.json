@@ -6,14 +6,14 @@
             "newline": true,
             "segments": [
                 {
-                    "foreground": "#F38BA8",
+                    "foreground": "#FB4934",
                     "powerline_symbol": "\u276f",
                     "style": "plain",
                     "template": "\uf0e7 ",
                     "type": "root"
                 },
                 {
-                    "foreground": "#89B4FA",
+                    "foreground": "#83A598",
                     "properties": {
                         "folder_icon": "\ue5ff",
                         "folder_separator_icon": "/",
@@ -25,12 +25,12 @@
                     "type": "path"
                 },
                 {
-                    "foreground": "#A6E3A1",
+                    "foreground": "#B8BB26",
                     "foreground_templates": [
-                        "{{ if or (.Working.Changed) (.Staging.Changed) }}#F9E2AF{{ end }}",
-                        "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#F38BA8{{ end }}",
-                        "{{ if gt .Ahead 0 }}#F38BA8{{ end }}",
-                        "{{ if gt .Behind 0 }}#F9E2AF{{ end }}"
+                        "{{ if or (.Working.Changed) (.Staging.Changed) }}#FABD2F{{ end }}",
+                        "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#FB4934{{ end }}",
+                        "{{ if gt .Ahead 0 }}#FB4934{{ end }}",
+                        "{{ if gt .Behind 0 }}#FABD2F{{ end }}"
                     ],
                     "properties": {
                         "fetch_stash_count": true,
@@ -39,7 +39,7 @@
                         "github_icon": "\uf408 "
                     },
                     "style": "plain",
-                    "template": " on {{ .UpstreamIcon }}{{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} <#F38BA8>\uf044 {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} <#F9E2AF>\uf046 {{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }}",
+                    "template": " on {{ .UpstreamIcon }}{{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} <#FB4934>\uf044 {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} <#FABD2F>\uf046 {{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }}",
                     "type": "git"
                 }
             ],
@@ -49,7 +49,7 @@
             "alignment": "right",
             "segments": [
                 {
-                    "foreground": "#F5C2E7",
+                    "foreground": "#D3869B",
                     "properties": {
                         "display_mode": "files"
                     },
@@ -58,7 +58,7 @@
                     "type": "angular"
                 },
                 {
-                    "foreground": "#F5C2E7",
+                    "foreground": "#D3869B",
                     "properties": {
                         "display_mode": "files"
                     },
@@ -67,7 +67,7 @@
                     "type": "dotnet"
                 },
                 {
-                    "foreground": "#F5C2E7",
+                    "foreground": "#D3869B",
                     "properties": {
                         "display_mode": "files"
                     },
@@ -76,7 +76,7 @@
                     "type": "flutter"
                 },
                 {
-                    "foreground": "#F5C2E7",
+                    "foreground": "#D3869B",
                     "properties": {
                         "display_mode": "files"
                     },
@@ -85,7 +85,7 @@
                     "type": "go"
                 },
                 {
-                    "foreground": "#F5C2E7",
+                    "foreground": "#D3869B",
                     "properties": {
                         "display_mode": "files"
                     },
@@ -94,7 +94,7 @@
                     "type": "haskell"
                 },
                 {
-                    "foreground": "#F5C2E7",
+                    "foreground": "#D3869B",
                     "properties": {
                         "display_mode": "files"
                     },
@@ -103,7 +103,7 @@
                     "type": "java"
                 },
                 {
-                    "foreground": "#F5C2E7",
+                    "foreground": "#D3869B",
                     "properties": {
                         "display_mode": "files"
                     },
@@ -112,7 +112,7 @@
                     "type": "kotlin"
                 },
                 {
-                    "foreground": "#F5C2E7",
+                    "foreground": "#D3869B",
                     "properties": {
                         "display_mode": "files"
                     },
@@ -121,7 +121,7 @@
                     "type": "lua"
                 },
                 {
-                    "foreground": "#F5C2E7",
+                    "foreground": "#D3869B",
                     "properties": {
                         "display_mode": "files"
                     },
@@ -130,7 +130,7 @@
                     "type": "node"
                 },
                 {
-                    "foreground": "#F5C2E7",
+                    "foreground": "#D3869B",
                     "properties": {
                         "display_mode": "files"
                     },
@@ -139,7 +139,7 @@
                     "type": "php"
                 },
                 {
-                    "foreground": "#F5C2E7",
+                    "foreground": "#D3869B",
                     "properties": {
                         "display_mode": "files"
                     },
@@ -148,7 +148,7 @@
                     "type": "python"
                 },
                 {
-                    "foreground": "#F5C2E7",
+                    "foreground": "#D3869B",
                     "properties": {
                         "display_mode": "files"
                     },
@@ -157,7 +157,7 @@
                     "type": "rust"
                 },
                 {
-                    "foreground": "#94E2D5",
+                    "foreground": "#8EC07C",
                     "style": "plain",
                     "template": " RAM[\uf85a]{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)) 1000000000) }}/{{ (div .PhysicalTotalMemory 1000000000) }}GB",
                     "type": "sysinfo"
@@ -170,7 +170,7 @@
             "newline": true,
             "segments": [
                 {
-                    "foreground": "#F9E2AF",
+                    "foreground": "#FABD2F",
                     "properties": {
                         "time_format": "15:04:05"
                     },
@@ -179,7 +179,7 @@
                     "type": "time"
                 },
                 {
-                    "foreground": "#F9E2AF",
+                    "foreground": "#FABD2F",
                     "properties": {
                         "threshold": 0
                     },
@@ -188,7 +188,7 @@
                     "type": "executiontime"
                 },
                 {
-                    "foreground": "#89B4FA",
+                    "foreground": "#83A598",
                     "style": "plain",
                     "template": "\u276f",
                     "type": "text"
