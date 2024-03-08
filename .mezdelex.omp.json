@@ -153,6 +153,15 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
+                    "template": " React[\ue7ba]{{ .Full }}",
+                    "type": "react"
+                },
+                {
+                    "foreground": "#D3869B",
+                    "properties": {
+                        "display_mode": "files"
+                    },
+                    "style": "plain",
                     "template": " Rust[\ue7a8]{{ .Full }}",
                     "type": "rust"
                 },
