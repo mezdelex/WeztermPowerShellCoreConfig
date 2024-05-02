@@ -7,17 +7,16 @@
             "segments": [
                 {
                     "foreground": "#FB4934",
-                    "powerline_symbol": "\u276f",
                     "style": "plain",
-                    "template": "\uf0e7 ",
+                    "template": "󱐋 ",
                     "type": "root"
                 },
                 {
                     "foreground": "#83A598",
                     "properties": {
-                        "folder_icon": "\ue5ff",
-                        "folder_separator_icon": "/",
-                        "home_icon": "\uf7db",
+                        "folder_icon": "",
+                        "folder_separator_icon": "󰿟",
+                        "home_icon": "",
                         "style": "mixed"
                     },
                     "style": "plain",
@@ -36,10 +35,10 @@
                         "fetch_stash_count": true,
                         "fetch_status": true,
                         "fetch_upstream_icon": true,
-                        "github_icon": "\uf408 "
+                        "github_icon": " "
                     },
                     "style": "plain",
-                    "template": " on {{ .UpstreamIcon }}{{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} <#FB4934>\uf044 {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} <#FABD2F>\uf046 {{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }}",
+                    "template": " on {{ .UpstreamIcon }}{{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} <#FB4934> {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} <#FABD2F> {{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} 󰆓 {{ .StashCount }}{{ end }}",
                     "type": "git"
                 }
             ],
@@ -54,7 +53,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " Angular[\ue753]{{ .Full }}",
+                    "template": " Angular[]{{ .Full }}",
                     "type": "angular"
                 },
                 {
@@ -63,7 +62,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " Dotnet[\ue77f]{{ .Full }}",
+                    "template": " .NET[]{{ .Full }}",
                     "type": "dotnet"
                 },
                 {
@@ -72,16 +71,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " Flutter[\ue28e]{{ .Full }}",
-                    "type": "flutter"
-                },
-                {
-                    "foreground": "#D3869B",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " Go[\ue65e]{{ .Full }}",
+                    "template": " Go[󰟓]{{ .Full }}",
                     "type": "go"
                 },
                 {
@@ -90,7 +80,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " Haskell[\ue777]{{ .Full }}",
+                    "template": " Haskell[]{{ .Full }}",
                     "type": "haskell"
                 },
                 {
@@ -99,7 +89,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " Java[\ue738]{{ .Full }}",
+                    "template": " Java[]{{ .Full }}",
                     "type": "java"
                 },
                 {
@@ -108,7 +98,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " Kotlin[\ufa05]{{ .Full }}",
+                    "template": " Kotlin[]{{ .Full }}",
                     "type": "kotlin"
                 },
                 {
@@ -117,7 +107,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " Lua[\ue620]{{ .Full }}",
+                    "template": " Lua[]{{ .Full }}",
                     "type": "lua"
                 },
                 {
@@ -126,7 +116,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " Node[\ue718]{{ .Full }}",
+                    "template": " Node[]{{ .Full }}",
                     "type": "node"
                 },
                 {
@@ -135,7 +125,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " PHP[\ue73d]{{ .Full }}",
+                    "template": " PHP[]{{ .Full }}",
                     "type": "php"
                 },
                 {
@@ -144,7 +134,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " Python[\ue235]{{ .Full }}",
+                    "template": " Python[]{{ .Full }}",
                     "type": "python"
                 },
                 {
@@ -153,7 +143,7 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " React[\ue7ba]{{ .Full }}",
+                    "template": " React[]{{ .Full }}",
                     "type": "react"
                 },
                 {
@@ -162,13 +152,13 @@
                         "display_mode": "files"
                     },
                     "style": "plain",
-                    "template": " Rust[\ue7a8]{{ .Full }}",
+                    "template": " Rust[]{{ .Full }}",
                     "type": "rust"
                 },
                 {
                     "foreground": "#8EC07C",
                     "style": "plain",
-                    "template": " RAM[\uf85a]{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)) 1000000000) }}/{{ (div .PhysicalTotalMemory 1000000000) }}GB",
+                    "template": " RAM[󰍛]{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)) 1000000000) }}/{{ (div .PhysicalTotalMemory 1000000000) }}GB",
                     "type": "sysinfo"
                 }
             ],
@@ -193,13 +183,13 @@
                         "threshold": 0
                     },
                     "style": "plain",
-                    "template": "\ufa1a{{ .FormattedMs }} ",
+                    "template": "󰔛 {{ .FormattedMs }} ",
                     "type": "executiontime"
                 },
                 {
                     "foreground": "#83A598",
                     "style": "plain",
-                    "template": "\u276f",
+                    "template": "",
                     "type": "text"
                 }
             ],
