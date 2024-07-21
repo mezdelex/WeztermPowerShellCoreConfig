@@ -1,8 +1,5 @@
 Import-Module -Name Terminal-Icons
 
-Invoke-Expression (&oh-my-posh init powershell -c ~/.mezdelex.omp.json)
-Invoke-Expression (&{(zoxide init powershell | Out-String)})
-
 Set-PSReadLineOption -BellStyle None
 Set-PSReadLineOption -EditMode Vi
 Set-PSReadLineOption -PredictionSource History
@@ -12,3 +9,6 @@ Set-PSReadLineKeyHandler -Key "ctrl+n" -Function NextHistory
 Set-PSReadLineKeyHandler -Key "ctrl+p" -Function PreviousHistory
 Set-PsFzfOption -PSReadlineChordProvider "ctrl+f"
 Set-PsFzfOption -PSReadlineChordReverseHistory "ctrl+r"
+
+Invoke-Expression (&oh-my-posh init powershell -c ~/.mezdelex.omp.json)
+Invoke-Expression (&{(zoxide init powershell | Out-String)})
