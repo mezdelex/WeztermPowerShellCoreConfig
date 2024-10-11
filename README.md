@@ -41,3 +41,9 @@
 |    PSReadLine    |                                                                                                             [psreadline](https://github.com/PowerShell/PSReadLine)                                                                                                             |                                                         n/a                                                          |
 |      Zoxide      |                                                                                                                [zoxide](https://github.com/ajeetdsouza/zoxide)                                                                                                                 |                                                         n/a                                                          |
 |       Yazi       | [yazi](https://github.com/sxyazi/yazi)/[ghostscript](https://www.ghostscript.com/)/[imagemagick](https://github.com/ImageMagick/ImageMagick)/[jid](https://github.com/simeji/jid)/[jq](https://github.com/jqlang/jq)/[poppler](https://gitlab.freedesktop.org/poppler/poppler) |                                                         n/a                                                          |
+
+## Images
+
+![image](https://github.com/user-attachments/assets/c639e633-d6cb-4326-8362-19732ec4a345)
+![image](https://github.com/user-attachments/assets/bde90b3c-262f-435c-a612-2b158fe933cb)
+![image](https://github.com/user-attachments/assets/31307b22-00df-4f5c-8222-2605e8139723)
