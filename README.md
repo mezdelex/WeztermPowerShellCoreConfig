@@ -6,21 +6,21 @@
 
 ## Setup
 
-- `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` & `Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression` @ Windows PowerShell
-- `scoop install aria2` & `scoop config aria2-warning-enabled false` @ Windows PowerShell
-- `scoop install delugia-nerd-font-complete` @ Windows PowerShell
-- `scoop install windows-terminal-preview` @ Windows PowerShell & `ctrl+,` @ Windows Terminal
-- `scoop install oh-my-posh` @ Windows PowerShell & copy `prompt` to `$HOME` directory
-- `scoop install pwsh` @ Windows PowerShell & `nvim $profile` @ PowerShell
-- `scoop install neovim fd ripgrep` @ PowerShell
-- `scoop install lazydocker` @ PowerShell
-- `scoop install lazygit` @ PowerShell
-- `scoop install kubectl k9s` @ PowerShell
-- `scoop install terminal-icons` @ PowerShell
-- `scoop install fzf psfzf` @ PowerShell
-- `scoop install psreadline` @ PowerShell
-- `scoop install zoxide` @ PowerShell
-- `scoop install yazi ghostscript imagemagick jid jq poppler` & `setx YAZI_FILE_ONE "$HOME\scoop\apps\git\current\usr\bin\file.exe"` @ PowerShell
+- Run `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` & `Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression` @ Windows PowerShell
+- Install `aria2` via `scoop install aria2` & run `scoop config aria2-warning-enabled false` @ Windows PowerShell
+- Install `delugia` font via `scoop install delugia-nerd-font-complete` @ Windows PowerShell
+- Install `windows-terminal` via `scoop install windows-terminal-preview` @ Windows PowerShell & `ctrl+,` @ Windows Terminal
+- Install `oh-my-posh` via `scoop install oh-my-posh` @ Windows PowerShell & copy `prompt` to `$HOME` directory
+- Install `powershell` via `scoop install pwsh` @ Windows PowerShell & `nvim $profile` @ PowerShell
+- Install `neovim`, `fd` & `ripgrep` via `scoop install neovim fd ripgrep` @ PowerShell
+- Install `lazydocker` via `scoop install lazydocker` @ PowerShell
+- Install `lazygit` via `scoop install lazygit` @ PowerShell
+- Install `kubectl` & `k9s` via `scoop install kubectl k9s` @ PowerShell
+- Install `terminal-icons` via `scoop install terminal-icons` @ PowerShell
+- Install `fzf` & `psfzf` via `scoop install fzf psfzf` @ PowerShell
+- Install `psreadline` via `scoop install psreadline` @ PowerShell
+- Install `zoxide` via `scoop install zoxide` @ PowerShell
+- Install `yazi`, `ghostscript`, `imagemagick`, `jid`, `jq` & `poppler` via `scoop install yazi ghostscript imagemagick jid jq poppler` & `setx YAZI_FILE_ONE "$HOME\scoop\apps\git\current\usr\bin\file.exe"` @ PowerShell
 
 ## Core
 
