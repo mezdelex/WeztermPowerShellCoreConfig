@@ -20,7 +20,7 @@
 - Install `fzf` & `psfzf` via `scoop install fzf psfzf` @ PowerShell
 - Install `psreadline` via `scoop install psreadline` @ PowerShell
 - Install `zoxide` via `scoop install zoxide` @ PowerShell
-- Install `yazi`, `ghostscript`, `imagemagick`, `jid`, `jq` & `poppler` via `scoop install yazi ghostscript imagemagick jid jq poppler` & `setx YAZI_FILE_ONE "$HOME\scoop\apps\git\current\usr\bin\file.exe"` @ PowerShell
+- Install `yazi`, `ghostscript`, `imagemagick`, `jid`, `jq` & `poppler` via `scoop install yazi ghostscript imagemagick jid jq poppler` & `setx YAZI_FILE_ONE "$HOME/scoop/apps/git/current/usr/bin/file.exe"` @ PowerShell
 
 ## Core
 

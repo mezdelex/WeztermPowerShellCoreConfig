@@ -2,7 +2,6 @@ local wezterm = require("wezterm")
 
 return {
     color_scheme = "Everforest Dark Medium (Gogh)",
-    default_cursor_style = "BlinkingBlock",
     default_prog = { "pwsh" },
     enable_tab_bar = false,
     font = wezterm.font("Delugia"),
