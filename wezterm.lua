@@ -38,7 +38,27 @@ return {
             mods = "CTRL",
         },
         {
-            action = wezterm.action.CloseCurrentPane({ confirm = true }),
+            action = wezterm.action.AdjustPaneSize({ "Down", 10 }),
+            key = "DownArrow",
+            mods = "ALT|SHIFT",
+        },
+        {
+            action = wezterm.action.AdjustPaneSize({ "Left", 10 }),
+            key = "LeftArrow",
+            mods = "ALT|SHIFT",
+        },
+        {
+            action = wezterm.action.AdjustPaneSize({ "Right", 10 }),
+            key = "RightArrow",
+            mods = "ALT|SHIFT",
+        },
+        {
+            action = wezterm.action.AdjustPaneSize({ "Up", 10 }),
+            key = "UpArrow",
+            mods = "ALT|SHIFT",
+        },
+        {
+            action = wezterm.action.CloseCurrentPane({ confirm = false }),
             key = "w",
             mods = "CTRL",
         },
@@ -53,12 +73,12 @@ return {
             mods = "CTRL",
         },
         {
-            action = wezterm.action.ScrollByLine(-1),
+            action = wezterm.action.ScrollByLine(-10),
             key = "UpArrow",
             mods = "SHIFT",
         },
         {
-            action = wezterm.action.ScrollByLine(1),
+            action = wezterm.action.ScrollByLine(10),
             key = "DownArrow",
             mods = "SHIFT",
         },
@@ -93,12 +113,12 @@ return {
             mods = "CTRL",
         },
         {
-            action = wezterm.action.SplitHorizontal({ cwd = "." }),
+            action = wezterm.action.SplitHorizontal,
             key = "RightArrow",
             mods = "CTRL|ALT",
         },
         {
-            action = wezterm.action.SplitVertical({ cwd = "." }),
+            action = wezterm.action.SplitVertical,
             key = "DownArrow",
             mods = "CTRL|ALT",
         },
