@@ -4,7 +4,7 @@ return {
 	color_scheme = "Everforest Dark Medium (Gogh)",
 	default_prog = { "pwsh" },
 	enable_tab_bar = false,
-	font = wezterm.font("Delugia"),
+	font = wezterm.font("Cascadia Code NF"),
 	keys = {
 		{
 			action = wezterm.action.ActivatePaneDirection("Down"),
