@@ -9,9 +9,9 @@
 - Install `scoop` via `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` & `Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression` @ Windows PowerShell
 - Install `aria2` via `scoop install aria2` & run `scoop config aria2-warning-enabled false` @ Windows PowerShell
 - Install `cascadia-code` via `scoop install cascadia-code` @ Windows PowerShell
-- Install `oh-my-posh` via `scoop install oh-my-posh` @ Windows PowerShell & copy `prompt` to `$HOME` directory
+- Install `oh-my-posh` via `scoop install oh-my-posh` @ Windows PowerShell & copy `prompt` to `$HOME/.mezdelex.omp.json`
 - Install `powershell` via `scoop install pwsh` @ Windows PowerShell & `nvim $profile` @ PowerShell
-- Install `wezterm` via `scoop install wezterm-nightly` @ PowerShell & `ctrl+,` to paste `wezterm` config
+- Install `wezterm` via `scoop install wezterm-nightly` @ PowerShell & copy `config` to `$HOME/.config/wezterm/wezterm.lua`
 - Install `neovim`, `fd` & `ripgrep` via `scoop install neovim fd ripgrep` @ PowerShell
 - Install `lazydocker` via `scoop install lazydocker` @ PowerShell
 - Install `lazygit` via `scoop install lazygit` @ PowerShell
