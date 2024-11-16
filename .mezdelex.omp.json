@@ -116,7 +116,7 @@
             "display_mode": "files"
           },
           "style": "plain",
-          "template": " Node[]{{ .Full }}",
+          "template": " Node[󰎙]{{ .Full }}",
           "type": "node"
         },
         {
@@ -152,7 +152,7 @@
             "display_mode": "files"
           },
           "style": "plain",
-          "template": " Rust[]{{ .Full }}",
+          "template": " Rust[]{{ .Full }}",
           "type": "rust"
         },
         {
