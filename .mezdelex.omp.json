@@ -1,201 +1,201 @@
 {
-    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
-    "blocks": [
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
         {
-            "alignment": "left",
-            "newline": true,
-            "segments": [
-                {
-                    "foreground": "#E67E80",
-                    "style": "plain",
-                    "template": "󱐋 ",
-                    "type": "root"
-                },
-                {
-                    "foreground": "#7FBBB3",
-                    "properties": {
-                        "folder_icon": "",
-                        "folder_separator_icon": "󰿟",
-                        "home_icon": "",
-                        "style": "mixed"
-                    },
-                    "style": "plain",
-                    "template": "{{ .Path }}",
-                    "type": "path"
-                },
-                {
-                    "foreground": "#A7C080",
-                    "foreground_templates": [
-                        "{{ if or (.Working.Changed) (.Staging.Changed) }}#DBBC7F{{ end }}",
-                        "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#E67E80{{ end }}",
-                        "{{ if gt .Ahead 0 }}#E67E80{{ end }}",
-                        "{{ if gt .Behind 0 }}#DBBC7F{{ end }}"
-                    ],
-                    "properties": {
-                        "fetch_stash_count": true,
-                        "fetch_status": true,
-                        "fetch_upstream_icon": true,
-                        "github_icon": " "
-                    },
-                    "style": "plain",
-                    "template": " on {{ .UpstreamIcon }}{{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} <#E67E80> {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} <#DBBC7F> {{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} 󰆓 {{ .StashCount }}{{ end }}",
-                    "type": "git"
-                }
-            ],
-            "type": "prompt"
+          "foreground": "#E67E80",
+          "style": "plain",
+          "template": "󱐋 ",
+          "type": "root"
         },
         {
-            "alignment": "right",
-            "segments": [
-                {
-                    "foreground": "#D699B6",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " Angular[]{{ .Full }}",
-                    "type": "angular"
-                },
-                {
-                    "foreground": "#D699B6",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " .NET[]{{ .Full }}",
-                    "type": "dotnet"
-                },
-                {
-                    "foreground": "#D699B6",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " Go[󰟓]{{ .Full }}",
-                    "type": "go"
-                },
-                {
-                    "foreground": "#D699B6",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " Haskell[]{{ .Full }}",
-                    "type": "haskell"
-                },
-                {
-                    "foreground": "#D699B6",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " Java[]{{ .Full }}",
-                    "type": "java"
-                },
-                {
-                    "foreground": "#D699B6",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " Kotlin[]{{ .Full }}",
-                    "type": "kotlin"
-                },
-                {
-                    "foreground": "#D699B6",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " Lua[]{{ .Full }}",
-                    "type": "lua"
-                },
-                {
-                    "foreground": "#D699B6",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " Node[󰎙]{{ .Full }}",
-                    "type": "node"
-                },
-                {
-                    "foreground": "#D699B6",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " PHP[]{{ .Full }}",
-                    "type": "php"
-                },
-                {
-                    "foreground": "#D699B6",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " Python[]{{ .Full }}",
-                    "type": "python"
-                },
-                {
-                    "foreground": "#D699B6",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " React[]{{ .Full }}",
-                    "type": "react"
-                },
-                {
-                    "foreground": "#D699B6",
-                    "properties": {
-                        "display_mode": "files"
-                    },
-                    "style": "plain",
-                    "template": " Rust[]{{ .Full }}",
-                    "type": "rust"
-                },
-                {
-                    "foreground": "#83C092",
-                    "style": "plain",
-                    "template": " RAM[󰍛]{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)) 1000000000) }}/{{ (div .PhysicalTotalMemory 1000000000) }}GB",
-                    "type": "sysinfo"
-                }
-            ],
-            "type": "prompt"
+          "foreground": "#7FBBB3",
+          "properties": {
+            "folder_icon": "",
+            "folder_separator_icon": "󰿟",
+            "home_icon": "",
+            "style": "mixed"
+          },
+          "style": "plain",
+          "template": "{{ .Path }}",
+          "type": "path"
         },
         {
-            "alignment": "left",
-            "newline": true,
-            "segments": [
-                {
-                    "foreground": "#DBBC7F",
-                    "properties": {
-                        "time_format": "15:04:05"
-                    },
-                    "style": "plain",
-                    "template": "{{ .CurrentDate | date .Format }} ",
-                    "type": "time"
-                },
-                {
-                    "foreground": "#DBBC7F",
-                    "properties": {
-                        "threshold": 0
-                    },
-                    "style": "plain",
-                    "template": "󰔛 {{ .FormattedMs }} ",
-                    "type": "executiontime"
-                },
-                {
-                    "foreground": "#7FBBB3",
-                    "style": "plain",
-                    "template": "",
-                    "type": "text"
-                }
-            ],
-            "type": "prompt"
+          "foreground": "#A7C080",
+          "foreground_templates": [
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#DBBC7F{{ end }}",
+            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#E67E80{{ end }}",
+            "{{ if gt .Ahead 0 }}#E67E80{{ end }}",
+            "{{ if gt .Behind 0 }}#DBBC7F{{ end }}"
+          ],
+          "properties": {
+            "fetch_stash_count": true,
+            "fetch_status": true,
+            "fetch_upstream_icon": true,
+            "github_icon": " "
+          },
+          "style": "plain",
+          "template": " on {{ .UpstreamIcon }}{{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} <#E67E80> {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} <#DBBC7F> {{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} 󰆓 {{ .StashCount }}{{ end }}",
+          "type": "git"
         }
-    ],
-    "final_space": true,
-    "version": 2
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "right",
+      "segments": [
+        {
+          "foreground": "#D699B6",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " Angular[]{{ .Full }}",
+          "type": "angular"
+        },
+        {
+          "foreground": "#D699B6",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " .NET[]{{ .Full }}",
+          "type": "dotnet"
+        },
+        {
+          "foreground": "#D699B6",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " Go[󰟓]{{ .Full }}",
+          "type": "go"
+        },
+        {
+          "foreground": "#D699B6",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " Haskell[]{{ .Full }}",
+          "type": "haskell"
+        },
+        {
+          "foreground": "#D699B6",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " Java[]{{ .Full }}",
+          "type": "java"
+        },
+        {
+          "foreground": "#D699B6",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " Kotlin[]{{ .Full }}",
+          "type": "kotlin"
+        },
+        {
+          "foreground": "#D699B6",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " Lua[]{{ .Full }}",
+          "type": "lua"
+        },
+        {
+          "foreground": "#D699B6",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " Node[󰎙]{{ .Full }}",
+          "type": "node"
+        },
+        {
+          "foreground": "#D699B6",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " PHP[]{{ .Full }}",
+          "type": "php"
+        },
+        {
+          "foreground": "#D699B6",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " Python[]{{ .Full }}",
+          "type": "python"
+        },
+        {
+          "foreground": "#D699B6",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " React[]{{ .Full }}",
+          "type": "react"
+        },
+        {
+          "foreground": "#D699B6",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " Rust[]{{ .Full }}",
+          "type": "rust"
+        },
+        {
+          "foreground": "#83C092",
+          "style": "plain",
+          "template": " RAM[󰍛]{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)) 1000000000) }}/{{ (div .PhysicalTotalMemory 1000000000) }}GB",
+          "type": "sysinfo"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "#DBBC7F",
+          "properties": {
+            "time_format": "15:04:05"
+          },
+          "style": "plain",
+          "template": "{{ .CurrentDate | date .Format }} ",
+          "type": "time"
+        },
+        {
+          "foreground": "#DBBC7F",
+          "properties": {
+            "threshold": 0
+          },
+          "style": "plain",
+          "template": "󰔛 {{ .FormattedMs }} ",
+          "type": "executiontime"
+        },
+        {
+          "foreground": "#7FBBB3",
+          "style": "plain",
+          "template": "",
+          "type": "text"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "version": 2
 }
