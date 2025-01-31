@@ -34,11 +34,10 @@
           "properties": {
             "fetch_stash_count": true,
             "fetch_status": true,
-            "fetch_upstream_icon": true,
-            "github_icon": " "
+            "fetch_upstream_icon": true
           },
           "style": "plain",
-          "template": " on {{ .UpstreamIcon }}{{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} <#E67E80> {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} <#DBBC7F> {{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} 󰆓 {{ .StashCount }}{{ end }}",
+          "template": " on {{ .UpstreamIcon }} {{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} <#E67E80> {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} <#DBBC7F> {{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} 󰆓 {{ .StashCount }}{{ end }}",
           "type": "git"
         }
       ],
@@ -47,15 +46,6 @@
     {
       "alignment": "right",
       "segments": [
-        {
-          "foreground": "#D699B6",
-          "properties": {
-            "display_mode": "files"
-          },
-          "style": "plain",
-          "template": " Angular[]{{ .Full }}",
-          "type": "angular"
-        },
         {
           "foreground": "#D699B6",
           "properties": {
@@ -71,35 +61,17 @@
             "display_mode": "files"
           },
           "style": "plain",
+          "template": " Angular[]{{ .Full }}",
+          "type": "angular"
+        },
+        {
+          "foreground": "#D699B6",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
           "template": " Go[󰟓]{{ .Full }}",
           "type": "go"
-        },
-        {
-          "foreground": "#D699B6",
-          "properties": {
-            "display_mode": "files"
-          },
-          "style": "plain",
-          "template": " Haskell[]{{ .Full }}",
-          "type": "haskell"
-        },
-        {
-          "foreground": "#D699B6",
-          "properties": {
-            "display_mode": "files"
-          },
-          "style": "plain",
-          "template": " Java[]{{ .Full }}",
-          "type": "java"
-        },
-        {
-          "foreground": "#D699B6",
-          "properties": {
-            "display_mode": "files"
-          },
-          "style": "plain",
-          "template": " Kotlin[]{{ .Full }}",
-          "type": "kotlin"
         },
         {
           "foreground": "#D699B6",
@@ -118,15 +90,6 @@
           "style": "plain",
           "template": " Node[󰎙]{{ .Full }}",
           "type": "node"
-        },
-        {
-          "foreground": "#D699B6",
-          "properties": {
-            "display_mode": "files"
-          },
-          "style": "plain",
-          "template": " PHP[]{{ .Full }}",
-          "type": "php"
         },
         {
           "foreground": "#D699B6",
@@ -154,6 +117,15 @@
           "style": "plain",
           "template": " Rust[]{{ .Full }}",
           "type": "rust"
+        },
+        {
+          "foreground": "#D699B6",
+          "properties": {
+            "display_mode": "files"
+          },
+          "style": "plain",
+          "template": " Zig[]{{ .Full }}",
+          "type": "zig"
         },
         {
           "foreground": "#83C092",
@@ -197,5 +169,5 @@
     }
   ],
   "final_space": true,
-  "version": 2
+  "version": 3
 }
