@@ -7,6 +7,7 @@
 ## Setup
 
 - Install `scoop` via `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` & `Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression` @ Windows PowerShell
+- Install `git` via `scoop install git` @ Windows PowerShell
 - Install `aria2` via `scoop install aria2` & run `scoop config aria2-warning-enabled false` @ Windows PowerShell
 - Install `cascadia-code` via `scoop install cascadia-code` @ Windows PowerShell
 - Install `oh-my-posh` via `scoop install oh-my-posh` @ Windows PowerShell & copy `prompt` to `$HOME/.mezdelex.omp.json`
@@ -27,6 +28,7 @@
 |      Name      |                                                                                                        Source                                                                                                        |                                                     Uri                                                      |
 | :------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
 |     Scoop      |                                                                                              [scoop](https://scoop.sh)                                                                                               |                                                     n/a                                                      |
+|      Git       |                                                                                          [git](https://github.com/git/git)                                                                                           |                                                     n/a                                                      |
 |     Aria2      |                                                                                       [aria2](https://github.com/aria2/aria2)                                                                                        |                                                     n/a                                                      |
 | Cascadia Code  |                                                                             [cascadia-code](https://github.com/microsoft/cascadia-code)                                                                              |                                                     n/a                                                      |
 |   Oh My Posh   |                                                                              [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)                                                                              |        [prompt](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/.mezdelex.omp.json)        |
