@@ -13,7 +13,7 @@
 - Install `oh-my-posh` via `scoop install oh-my-posh` @ Windows PowerShell & copy `prompt` to `$HOME/.mezdelex.omp.json`
 - Install `powershell` via `scoop install pwsh` @ Windows PowerShell & `nvim $profile` @ PowerShell
 - Install `wezterm` via `scoop install wezterm-nightly` @ PowerShell & copy `config` to `$HOME/.config/wezterm/wezterm.lua`
-- Install `neovim`, `fd` & `ripgrep` via `scoop install neovim fd ripgrep` @ PowerShell
+- Install `neovim`, `fd`, `ripgrep` & `rustup` via `scoop install neovim fd ripgrep rustup` @ PowerShell
 - Install `lazydocker` via `scoop install lazydocker` @ PowerShell
 - Install `lazygit` via `scoop install lazygit` @ PowerShell
 - Install `kubectl` & `k9s` via `scoop install kubectl k9s` @ PowerShell
