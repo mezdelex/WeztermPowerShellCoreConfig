@@ -21,7 +21,7 @@
 - Install `fzf` & `psfzf` via `scoop install fzf psfzf` @ PowerShell
 - Install `psreadline` via `scoop install psreadline` @ PowerShell
 - Install `zoxide` via `scoop install zoxide` @ PowerShell
-- Install `yazi`, `ghostscript`, `jid`, `jq` & `poppler` via `scoop install yazi ghostscript jid jq poppler` & `setx YAZI_FILE_ONE "$HOME/scoop/apps/git/current/usr/bin/file.exe"` @ PowerShell
+- Install `yazi`, `ghostscript`, `jid`, `jq` & `poppler` via `scoop install yazi ghostscript jid jq poppler` @ PowerShell & `setx YAZI_FILE_ONE "$HOME/scoop/apps/git/current/usr/bin/file.exe"` & copy `config` to `$HOME/AppData/Roaming/yazi/config/yazi.toml`
 
 ## Core
 
@@ -42,7 +42,7 @@
 |  FuzzyFinder   |                                                                 [fzf](https://github.com/junegunn/fzf)/[psfzf](https://github.com/kelleyma49/PSFzf)                                                                  |                                                     n/a                                                      |
 |   PSReadLine   |                                                                                [psreadline](https://github.com/PowerShell/PSReadLine)                                                                                |                                                     n/a                                                      |
 |     Zoxide     |                                                                                   [zoxide](https://github.com/ajeetdsouza/zoxide)                                                                                    |                                                     n/a                                                      |
-|      Yazi      | [yazi](https://github.com/sxyazi/yazi)/[ghostscript](https://www.ghostscript.com/)/[jid](https://github.com/simeji/jid)/[jq](https://github.com/jqlang/jq)/[poppler](https://gitlab.freedesktop.org/poppler/poppler) |                                                     n/a                                                      |
+|      Yazi      | [yazi](https://github.com/sxyazi/yazi)/[ghostscript](https://www.ghostscript.com/)/[jid](https://github.com/simeji/jid)/[jq](https://github.com/jqlang/jq)/[poppler](https://gitlab.freedesktop.org/poppler/poppler) |            [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/yazi.toml)             |
 
 ## Images
 
