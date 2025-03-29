@@ -10,19 +10,19 @@
 - Install `git` via `scoop install git` @ Windows PowerShell
 - Install `aria2` via `scoop install aria2` & run `scoop config aria2-warning-enabled false` @ Windows PowerShell
 - Install `cascadia-code` via `scoop install cascadia-code` @ Windows PowerShell
-- Install `oh-my-posh` via `scoop install oh-my-posh` @ Windows PowerShell & copy `prompt` to `$HOME/.mezdelex.omp.json`
-- Install `powershell` via `scoop install pwsh` @ Windows PowerShell & `nvim $profile` @ PowerShell
-- Install `wezterm` via `scoop install wezterm-nightly` @ PowerShell & copy `config` to `$HOME/.config/wezterm/wezterm.lua`
-- Install `neovim`, `fd`, `ripgrep` & `rustup` via `scoop install neovim fd ripgrep rustup` @ PowerShell
-- Install `lazydocker` via `scoop install lazydocker` @ PowerShell
-- Install `lazygit` via `scoop install lazygit` @ PowerShell
+- Install `oh-my-posh` via `scoop install oh-my-posh` @ Windows PowerShell & copy [prompt](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/.mezdelex.omp.json) to `$HOME/.mezdelex.omp.json`
+- Install `wezterm` via `scoop install wezterm-nightly` @ Windows PowerShell & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/wezterm.lua) to `$HOME/.config/wezterm/wezterm.lua`
+- Install `powershell` via `scoop install pwsh` @ Windows PowerShell & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/Microsoft.PowerShell_profile.ps1) to `nvim $profile` @ PowerShell
+- Install `neovim`, `fd`, `ripgrep` & `rustup` via `scoop install neovim fd ripgrep rustup` @ PowerShell & follow [config](https://github.com/mezdelex/NeovimConfig) instructions
 - Install `curlie` via `scoop install curlie` @ PowerShell
-- Install `kubectl` & `k9s` via `scoop install kubectl k9s` @ PowerShell
-- Install `terminal-icons` via `scoop install terminal-icons` @ PowerShell
+- Install `lazygit` via `scoop install lazygit` @ PowerShell
+- Install `lazydocker` via `scoop install lazydocker` @ PowerShell
+- Install `kubectl` & `k9s` via `scoop install kubectl k9s` @ PowerShell & follow [config](https://github.com/mezdelex/K9sConfig) instructions
+- Install `terminal-icons` via `scoop install terminal-icons` @ PowerShell & follow [config](https://github.com/mezdelex/TerminalIconsConfig) instructions
 - Install `fzf` & `psfzf` via `scoop install fzf psfzf` @ PowerShell
 - Install `psreadline` via `scoop install psreadline` @ PowerShell
 - Install `zoxide` via `scoop install zoxide` @ PowerShell
-- Install `yazi`, `ghostscript`, `jid`, `jq` & `poppler` via `scoop install yazi ghostscript jid jq poppler` @ PowerShell & `setx YAZI_FILE_ONE "$HOME/scoop/apps/git/current/usr/bin/file.exe"` & copy `config` to `$HOME/AppData/Roaming/yazi/config/yazi.toml`
+- Install `yazi`, `ghostscript`, `jid`, `jq` & `poppler` via `scoop install yazi ghostscript jid jq poppler` @ PowerShell & `setx YAZI_FILE_ONE "$HOME/scoop/apps/git/current/usr/bin/file.exe"` & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/yazi.toml) to `$HOME/AppData/Roaming/yazi/config/yazi.toml`
 
 ## Core
 
@@ -33,8 +33,8 @@
 |     Aria2      |                                                                                       [aria2](https://github.com/aria2/aria2)                                                                                        |                                                     n/a                                                      |
 | Cascadia Code  |                                                                             [cascadia-code](https://github.com/microsoft/cascadia-code)                                                                              |                                                     n/a                                                      |
 |   Oh My Posh   |                                                                              [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)                                                                              |        [prompt](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/.mezdelex.omp.json)        |
-|   PowerShell   |                                                                                [powershell](https://github.com/PowerShell/PowerShell)                                                                                | [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/Microsoft.PowerShell_profile.ps1) |
 |    Wezterm     |                                                                                      [wezterm](https://github.com/wez/wezterm)                                                                                       |           [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/wezterm.lua)            |
+|   PowerShell   |                                                                                [powershell](https://github.com/PowerShell/PowerShell)                                                                                | [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/Microsoft.PowerShell_profile.ps1) |
 |     Neovim     |                                           [neovim](https://github.com/neovim/neovim)/[fd](https://github.com/sharkdp/fd)/[ripgrep](https://github.com/BurntSushi/ripgrep)                                            |                              [config](https://github.com/mezdelex/NeovimConfig)                              |
 |     Curlie     |                                                                                        [curlie](https://github.com/rs/curlie)                                                                                        |                                                     n/a                                                      |
 |    Lazygit     |                                                                                 [lazygit](https://github.com/jesseduffield/lazygit)                                                                                  |                                                     n/a                                                      |
