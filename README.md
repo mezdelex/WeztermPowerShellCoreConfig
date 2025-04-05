@@ -13,7 +13,7 @@
 - Install `oh-my-posh` via `scoop install oh-my-posh` @ Windows PowerShell & copy [prompt](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/.mezdelex.omp.json) to `$HOME/.mezdelex.omp.json`
 - Install `wezterm` via `scoop install wezterm-nightly` @ Windows PowerShell & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/wezterm.lua) to `$HOME/.config/wezterm/wezterm.lua`
 - Install `powershell` via `scoop install pwsh` @ Windows PowerShell & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/Microsoft.PowerShell_profile.ps1) to `nvim $profile` @ PowerShell
-- Install `neovim`, `fd`, `ripgrep` & `rustup` via `scoop install neovim fd ripgrep rustup` @ PowerShell & follow [config](https://github.com/mezdelex/NeovimConfig) instructions
+- Install `neovim`, `fd`, `imagemagick`, `ripgrep` & `rustup` via `scoop install neovim fd imagemagick ripgrep rustup` @ PowerShell & follow [config](https://github.com/mezdelex/NeovimConfig) instructions
 - Install `curlie` via `scoop install curlie` @ PowerShell
 - Install `lazygit` via `scoop install lazygit` @ PowerShell
 - Install `lazydocker` via `scoop install lazydocker` @ PowerShell
