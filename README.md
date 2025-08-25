@@ -7,7 +7,7 @@
 ## Setup
 
 - Install `scoop` via `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` & `Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression` @ Windows PowerShell
-- Install `git` via `scoop install git` @ Windows PowerShell
+- Install `git` via `scoop install git` @ Windows PowerShell & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/.gitconfig) to `$HOME/.gitconfig`
 - Install `aria2` via `scoop install aria2` & run `scoop config aria2-warning-enabled false` @ Windows PowerShell
 - Install `cascadia-code` via `scoop install cascadia-code` @ Windows PowerShell
 - Install `oh-my-posh` via `scoop install oh-my-posh` @ Windows PowerShell & copy [prompt](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/.mezdelex.omp.json) to `$HOME/.mezdelex.omp.json`
@@ -24,12 +24,12 @@
 - Install `zoxide` via `scoop install zoxide` @ PowerShell
 - Install `yazi`, `ffmpeg`, `ghostscript`, `jid`, `jq`, `poppler` & `resvg` via `scoop install yazi ffmpeg ghostscript jid jq poppler resvg` @ PowerShell & `setx YAZI_FILE_ONE "$HOME/scoop/apps/git/current/usr/bin/file.exe"` & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/yazi.toml) to `$HOME/AppData/Roaming/yazi/config/yazi.toml`
 
-## Core
+## Configs
 
 |      Name      |                                                                                                                                                    Source                                                                                                                                                    |                                                     Uri                                                      |
 | :------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
 |     Scoop      |                                                                                                                                          [scoop](https://scoop.sh)                                                                                                                                           |                                                     n/a                                                      |
-|      Git       |                                                                                                                                      [git](https://github.com/git/git)                                                                                                                                       |                                                     n/a                                                      |
+|      Git       |                                                                                                                                      [git](https://github.com/git/git)                                                                                                                                       |            [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/.gitconfig)            |
 |     Aria2      |                                                                                                                                   [aria2](https://github.com/aria2/aria2)                                                                                                                                    |                                                     n/a                                                      |
 | Cascadia Code  |                                                                                                                         [cascadia-code](https://github.com/microsoft/cascadia-code)                                                                                                                          |                                                     n/a                                                      |
 |   Oh My Posh   |                                                                                                                          [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)                                                                                                                          |        [prompt](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/.mezdelex.omp.json)        |
