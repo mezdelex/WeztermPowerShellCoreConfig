@@ -2,3 +2,5 @@
     editor = nvim
 [credential]
 	helper = manager
+[pull]
+    rebase = false
