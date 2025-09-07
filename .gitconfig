@@ -1,6 +1,8 @@
 [core]
     editor = nvim
 [credential]
-	helper = manager
+    helper = manager
+[fetch]
+    prune = true
 [pull]
     rebase = false
