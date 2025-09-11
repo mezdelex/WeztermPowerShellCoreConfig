@@ -1,5 +1,20 @@
-New-Item -Path $HOME/.config/wezterm/wezterm.lua -ItemType SymbolicLink -Target (Resolve-Path ./wezterm.lua)
-New-Item -Path $HOME/.gitconfig -ItemType SymbolicLink -Target (Resolve-Path ./.gitconfig)
-New-Item -Path $HOME/.mezdelex.omp.json -ItemType SymbolicLink -Target (Resolve-Path ./.mezdelex.omp.json)
-New-Item -Path $HOME/AppData/Roaming/yazi/config/yazi.toml -ItemType SymbolicLink -Target (Resolve-Path ./yazi.toml)
-New-Item -Path $PROFILE -ItemType SymbolicLink -Target (Resolve-Path ./Microsoft.PowerShell_profile.ps1)
+$symlinkPaths = @{
+    "$HOME/.config/wezterm/wezterm.lua" = "wezterm.lua";
+    "$HOME/.gitconfig" = ".gitconfig";
+    "$HOME/.mezdelex.omp.json" = ".mezdelex.omp.json";
+    "$HOME/AppData/Roaming/yazi/config/yazi.toml" = "yazi.toml";
+    $PROFILE = "Microsoft.PowerShell_profile.ps1";
+}
+
+foreach ($targetPath in $symlinkPaths.Keys)
+{
+    $sourceAbsolutePath = (Resolve-Path "./$($symlinkPaths[$targetPath])").Path
+
+    $targetParentDir = Split-Path -Parent $targetPath
+    if (-not (Test-Path $targetParentDir))
+    {
+        New-Item -Path $targetParentDir -ItemType Directory -Force | Out-Null
+    }
+
+    New-Item -Path $targetPath -ItemType SymbolicLink -Target $sourceAbsolutePath -Force
+}
