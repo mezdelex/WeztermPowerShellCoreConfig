@@ -9,12 +9,12 @@
 > [!IMPORTANT]
 >
 > - Install `scoop` via `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` & `Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression` @ Windows PowerShell
-> - Install `git` via `scoop install git` @ Windows PowerShell & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/.gitconfig) to `$HOME/.gitconfig`
+> - Install `git` via `scoop install git` @ Windows PowerShell & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/.gitconfig) to `$HOME/.gitconfig` or run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1)
 > - Install `aria2` via `scoop install aria2` & run `scoop config aria2-warning-enabled false` @ Windows PowerShell
 > - Install `cascadia-code` via `scoop install cascadia-code` @ Windows PowerShell
-> - Install `oh-my-posh` via `scoop install oh-my-posh` @ Windows PowerShell & copy [prompt](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/.mezdelex.omp.json) to `$HOME/.mezdelex.omp.json`
-> - Install `wezterm` via `scoop install wezterm-nightly` @ Windows PowerShell & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/wezterm.lua) to `$HOME/.config/wezterm/wezterm.lua`
-> - Install `powershell` via `scoop install pwsh` @ Windows PowerShell & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/Microsoft.PowerShell_profile.ps1) to `nvim $profile` @ PowerShell
+> - Install `oh-my-posh` via `scoop install oh-my-posh` @ Windows PowerShell & copy [prompt](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/.mezdelex.omp.json) to `$HOME/.mezdelex.omp.json` or run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1)
+> - Install `wezterm` via `scoop install wezterm-nightly` @ Windows PowerShell & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/wezterm.lua) to `$HOME/.config/wezterm/wezterm.lua` or run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1)
+> - Install `powershell` via `scoop install pwsh` @ Windows PowerShell & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/Microsoft.PowerShell_profile.ps1) to `nvim $profile` @ PowerShell or run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1)
 > - Install `neovim-nightly`, `fd`, `grpcurl`, `ripgrep`, `rustup` & `tree-sitter` via `scoop install neovim-nightly fd grpcurl ripgrep rustup tree-sitter` @ PowerShell & follow [config](https://github.com/mezdelex/NeovimConfig) instructions
 > - Install `curlie` via `scoop install curlie` @ PowerShell
 > - Install `lazygit` via `scoop install lazygit` @ PowerShell
@@ -24,7 +24,13 @@
 > - Install `fzf` & `psfzf` via `scoop install fzf psfzf` @ PowerShell
 > - Install `psreadline` via `scoop install psreadline` @ PowerShell
 > - Install `zoxide` via `scoop install zoxide` @ PowerShell
-> - Install `yazi`, `ffmpeg`, `ghostscript`, `jid`, `jq`, `poppler` & `resvg` via `scoop install yazi ffmpeg ghostscript jid jq poppler resvg` @ PowerShell & `setx YAZI_FILE_ONE "$HOME/scoop/apps/git/current/usr/bin/file.exe"` & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/yazi.toml) to `$HOME/AppData/Roaming/yazi/config/yazi.toml`
+> - Install `yazi`, `ffmpeg`, `ghostscript`, `jid`, `jq`, `poppler` & `resvg` via `scoop install yazi ffmpeg ghostscript jid jq poppler resvg` @ PowerShell & `setx YAZI_FILE_ONE "$HOME/scoop/apps/git/current/usr/bin/file.exe"` & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/yazi.toml) to `$HOME/AppData/Roaming/yazi/config/yazi.toml` or run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1)
+
+---
+
+> [!TIP]
+>
+> Run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1) script with admin rights to set all the symlinks at once.
 
 ---
 

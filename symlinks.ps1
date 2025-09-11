@@ -1,0 +1,5 @@
+New-Item -Path $HOME/.config/wezterm/wezterm.lua -ItemType SymbolicLink -Target (Resolve-Path ./wezterm.lua)
+New-Item -Path $HOME/.gitconfig -ItemType SymbolicLink -Target (Resolve-Path ./.gitconfig)
+New-Item -Path $HOME/.mezdelex.omp.json -ItemType SymbolicLink -Target (Resolve-Path ./.mezdelex.omp.json)
+New-Item -Path $HOME/AppData/Roaming/yazi/config/yazi.toml -ItemType SymbolicLink -Target (Resolve-Path ./yazi.toml)
+New-Item -Path $PROFILE -ItemType SymbolicLink -Target (Resolve-Path ./Microsoft.PowerShell_profile.ps1)
