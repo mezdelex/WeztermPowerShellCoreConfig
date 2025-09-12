@@ -6,3 +6,6 @@
     prune = true
 [pull]
     rebase = false
+[user]
+	email = alexcondegomez@gmail.com
+	name = mezdelex
