@@ -31,7 +31,8 @@
 > [!TIP]
 >
 > - Run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1) script with admin rights to set all the symlinks at once.
-> - Run `Update-Module -Verbose` to update PowerShell modules.
+> - Run `Update-Module (-Verbose)` to update PowerShell modules.
+> - Run `Uninstall-Module <Module> -MaximumVersion <Version>` to clean up specific PowerShell module stale versions.
 
 ---
 
