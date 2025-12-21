@@ -120,5 +120,5 @@ return {
             mods = "CTRL|ALT",
         },
     },
-    max_fps = 144,
+    max_fps = 240,
 }
