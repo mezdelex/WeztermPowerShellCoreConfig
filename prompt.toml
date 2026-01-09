@@ -1,0 +1,161 @@
+final_space = true
+version = 3
+
+[[blocks]]
+alignment = "left"
+newline = true
+type = "prompt"
+
+[[blocks.segments]]
+foreground = "#E67E80"
+style = "plain"
+template = "󱐋 "
+type = "root"
+
+[[blocks.segments]]
+foreground = "#7FBBB3"
+style = "plain"
+template = "{{ .Path }}"
+type = "path"
+
+[blocks.segments.options]
+folder_icon = ""
+folder_separator_icon = "󰿟"
+home_icon = ""
+style = "mixed"
+
+[[blocks.segments]]
+foreground = "#A7C080"
+foreground_templates = [
+  "{{ if or (.Working.Changed) (.Staging.Changed) }}#DBBC7F{{ end }}",
+  "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#E67E80{{ end }}",
+  "{{ if gt .Ahead 0 }}#E67E80{{ end }}",
+  "{{ if gt .Behind 0 }}#DBBC7F{{ end }}"
+]
+style = "plain"
+template = " on {{ .UpstreamIcon }} {{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} <#E67E80> {{ .Working.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} <#DBBC7F> {{ .Staging.String }}</>{{ end }}{{ if gt .StashCount 0 }} 󰆓 {{ .StashCount }}{{ end }}"
+type = "git"
+
+[blocks.segments.options]
+fetch_status = true
+fetch_upstream_icon = true
+
+[[blocks]]
+alignment = "right"
+type = "prompt"
+
+[[blocks.segments]]
+foreground = "#D699B6"
+style = "plain"
+template = " .NET[]{{ .Full }}"
+type = "dotnet"
+
+[blocks.segments.options]
+display_mode = "files"
+
+[[blocks.segments]]
+foreground = "#D699B6"
+style = "plain"
+template = " Angular[]{{ .Full }}"
+type = "angular"
+
+[blocks.segments.options]
+display_mode = "files"
+
+[[blocks.segments]]
+foreground = "#D699B6"
+style = "plain"
+template = " Go[󰟓]{{ .Full }}"
+type = "go"
+
+[blocks.segments.options]
+display_mode = "files"
+
+[[blocks.segments]]
+foreground = "#D699B6"
+style = "plain"
+template = " Lua[]{{ .Full }}"
+type = "lua"
+
+[blocks.segments.options]
+display_mode = "files"
+
+[[blocks.segments]]
+foreground = "#D699B6"
+style = "plain"
+template = " Node[󰎙]{{ .Full }}"
+type = "node"
+
+[blocks.segments.options]
+display_mode = "files"
+
+[[blocks.segments]]
+foreground = "#D699B6"
+style = "plain"
+template = " Python[]{{ .Full }}"
+type = "python"
+
+[blocks.segments.options]
+display_mode = "files"
+
+[[blocks.segments]]
+foreground = "#D699B6"
+style = "plain"
+template = " React[]{{ .Full }}"
+type = "react"
+
+[blocks.segments.options]
+display_mode = "files"
+
+[[blocks.segments]]
+foreground = "#D699B6"
+style = "plain"
+template = " Rust[]{{ .Full }}"
+type = "rust"
+
+[blocks.segments.options]
+display_mode = "files"
+
+[[blocks.segments]]
+foreground = "#D699B6"
+style = "plain"
+template = " Zig[]{{ .Full }}"
+type = "zig"
+
+[blocks.segments.options]
+display_mode = "files"
+
+[[blocks.segments]]
+foreground = "#83C092"
+style = "plain"
+template = " RAM[󰍛]{{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)) 1000000000) }}/{{ (div .PhysicalTotalMemory 1000000000) }}GB"
+type = "sysinfo"
+
+[[blocks]]
+alignment = "left"
+newline = true
+type = "prompt"
+
+[[blocks.segments]]
+foreground = "#DBBC7F"
+style = "plain"
+template = "{{ .CurrentDate | date .Format }} "
+type = "time"
+
+[blocks.segments.options]
+time_format = "15:04:05"
+
+[[blocks.segments]]
+foreground = "#DBBC7F"
+style = "plain"
+template = "󰔛 {{ .FormattedMs }} "
+type = "executiontime"
+
+[blocks.segments.options]
+threshold = 0
+
+[[blocks.segments]]
+foreground = "#7FBBB3"
+style = "plain"
+template = ""
+type = "text"

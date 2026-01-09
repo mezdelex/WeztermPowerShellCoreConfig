@@ -2,7 +2,7 @@ $symlinkPaths = @{
     "$HOME/.config/wezterm/wezterm.lua" = "wezterm.lua";
     "$HOME/.gitconfig" = ".gitconfig";
     "$HOME/AppData/Roaming/yazi/config/yazi.toml" = "yazi.toml";
-    "$HOME/prompt.json" = "prompt.json";
+    "$HOME/prompt.toml" = "prompt.toml";
     $PROFILE = "Microsoft.PowerShell_profile.ps1";
 }
 
