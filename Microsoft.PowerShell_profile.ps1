@@ -10,5 +10,5 @@ Set-PSReadLineKeyHandler -Key "ctrl+p" -Function PreviousHistory
 Set-PsFzfOption -PSReadlineChordProvider "ctrl+f"
 Set-PsFzfOption -PSReadlineChordReverseHistory "ctrl+r"
 
-Invoke-Expression (&oh-my-posh init powershell -c ~/.prompt.json)
+Invoke-Expression (&oh-my-posh init powershell -c ~/prompt.json)
 Invoke-Expression (&{(zoxide init powershell | Out-String)})
