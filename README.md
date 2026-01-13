@@ -15,7 +15,7 @@
 > - Install `cascadia-code` via `scoop install cascadia-code` @ Windows PowerShell.
 > - Install `oh-my-posh` via `scoop install oh-my-posh` @ Windows PowerShell & copy [prompt](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/prompt.toml) to `$HOME/prompt.toml` or run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1).
 > - Install `wezterm-nightly` & `vcredist` via `scoop install wezterm-nightly vcredist` @ Windows PowerShell & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/wezterm.lua) to `$HOME/.config/wezterm/wezterm.lua` or run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1).
-> - Install `powershell-nightly` via `scoop install pwsh-beta` @ Windows PowerShell.
+> - Install `pwsh-beta` via `scoop install pwsh-beta` @ Windows PowerShell.
 > - Install `terminal-icons` via `Install-Module -Name Terminal-Icons -Scope CurrentUser` @ PowerShell & follow [config](https://github.com/mezdelex/TerminalIconsConfig) instructions.
 > - Install `fzf` & `psfzf` via `scoop install fzf` & `Install-Module -Name PsFzf -Scope CurrentUser` @ PowerShell.
 > - Copy PowerShell [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/Microsoft.PowerShell_profile.ps1) to `nvim $profile` @ PowerShell or run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1).
