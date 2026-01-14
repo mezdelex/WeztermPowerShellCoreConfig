@@ -24,7 +24,7 @@
 > - Install `kubectl` & `k9s` via `scoop install kubectl k9s` @ PowerShell & follow [config](https://github.com/mezdelex/K9sConfig) instructions.
 > - Install `zoxide` via `scoop install zoxide` @ PowerShell.
 > - Install `yazi`, `ffmpeg`, `jid`, `jq`, `poppler` & `resvg` via `scoop install yazi ffmpeg jid jq poppler resvg` @ PowerShell & `setx YAZI_FILE_ONE "$HOME/scoop/apps/git/current/usr/bin/file.exe"`
-> - Run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1) script with admin rights to set all the symlinks at once @ PowerShell
+> - Clone this repository & run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1) script with admin rights to set all the symlinks at once @ PowerShell
 
 ---
 
