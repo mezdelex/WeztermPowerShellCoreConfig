@@ -1,2 +1,4 @@
 [mgr]
+linemode = "info"
 show_hidden = true
+show_symlink = true
