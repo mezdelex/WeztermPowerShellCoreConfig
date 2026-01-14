@@ -6,15 +6,6 @@ $symlinkPaths = @{
     "$HOME/prompt.toml" = "prompt.toml";
 }
 
-foreach ($targetPath in $symlinkPaths.Keys)
-{
-    $sourceAbsolutePath = (Resolve-Path "./$($symlinkPaths[$targetPath])").Path
-
-    $targetParentDir = Split-Path -Parent $targetPath
-    if (-not (Test-Path $targetParentDir))
-    {
-        New-Item -Path $targetParentDir -ItemType Directory -Force | Out-Null
-    }
-
-    New-Item -Path $targetPath -ItemType SymbolicLink -Target $sourceAbsolutePath -Force
+$symlinkPaths.GetEnumerator() | ForEach-Object {
+    New-Item -Path $_.Key -ItemType SymbolicLink -Target (Resolve-Path "./$($_.Value)").Path -Force 
 }

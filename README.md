@@ -9,28 +9,27 @@
 > [!IMPORTANT]
 >
 > - Install `scoop` via `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` & `Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression` @ Windows PowerShell.
-> - Install `git` via `scoop install git` @ Windows PowerShell & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/.gitconfig) to `$HOME/.gitconfig` or run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1).
+> - Install `git` via `scoop install git` @ Windows PowerShell
 > - Install additional `scoop buckets` via `scoop bucket add extras`, `scoop bucket add nerd-fonts` & `scoop bucket add versions` @ Windows PowerShell.
 > - Install `aria2` via `scoop install aria2` & run `scoop config aria2-warning-enabled false` @ Windows PowerShell.
 > - Install `cascadia-code` via `scoop install cascadia-code` @ Windows PowerShell.
-> - Install `oh-my-posh` via `scoop install oh-my-posh` @ Windows PowerShell & copy [prompt](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/prompt.toml) to `$HOME/prompt.toml` or run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1).
-> - Install `wezterm-nightly` & `vcredist` via `scoop install wezterm-nightly vcredist` @ Windows PowerShell & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/wezterm.lua) to `$HOME/.config/wezterm/wezterm.lua` or run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1).
+> - Install `oh-my-posh` via `scoop install oh-my-posh` @ Windows PowerShell
+> - Install `wezterm-nightly` & `vcredist` via `scoop install wezterm-nightly vcredist` @ Windows PowerShell
 > - Install `pwsh-beta` via `scoop install pwsh-beta` @ Windows PowerShell.
 > - Install `terminal-icons` via `Install-Module -Name Terminal-Icons -Scope CurrentUser` @ PowerShell & follow [config](https://github.com/mezdelex/TerminalIconsConfig) instructions.
 > - Install `fzf` & `psfzf` via `scoop install fzf` & `Install-Module -Name PsFzf -Scope CurrentUser` @ PowerShell.
-> - Copy PowerShell [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/profile.ps1) to `nvim $profile` @ PowerShell or run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1).
 > - Install `neovim-nightly`, `fd`, `grpcurl`, `mingw-winlibs-llvm-msvcrt`, `ripgrep`, `rustup` & `tree-sitter` via `scoop install neovim-nightly fd grpcurl mingw-winlibs-llvm-msvcrt ripgrep rustup tree-sitter` @ PowerShell & follow [config](https://github.com/mezdelex/NeovimConfig) instructions.
 > - Install `lazygit` via `scoop install lazygit` @ PowerShell.
 > - Install `lazydocker` via `scoop install lazydocker` @ PowerShell.
 > - Install `kubectl` & `k9s` via `scoop install kubectl k9s` @ PowerShell & follow [config](https://github.com/mezdelex/K9sConfig) instructions.
 > - Install `zoxide` via `scoop install zoxide` @ PowerShell.
-> - Install `yazi`, `ffmpeg`, `jid`, `jq`, `poppler` & `resvg` via `scoop install yazi ffmpeg jid jq poppler resvg` @ PowerShell & `setx YAZI_FILE_ONE "$HOME/scoop/apps/git/current/usr/bin/file.exe"` & copy [config](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/yazi.toml) to `$HOME/AppData/Roaming/yazi/config/yazi.toml` or run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1).
+> - Install `yazi`, `ffmpeg`, `jid`, `jq`, `poppler` & `resvg` via `scoop install yazi ffmpeg jid jq poppler resvg` @ PowerShell & `setx YAZI_FILE_ONE "$HOME/scoop/apps/git/current/usr/bin/file.exe"`
+> - Run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1) script with admin rights to set all the symlinks at once @ PowerShell
 
 ---
 
 > [!TIP]
 >
-> - Run [symlinks](https://github.com/mezdelex/WeztermPowershellCoreConfig/blob/main/symlinks.ps1) script with admin rights to set all the symlinks at once.
 > - Run `Update-Module (-Verbose)` to update PowerShell modules.
 > - Run `Uninstall-Module <Module> -MaximumVersion <Version>` to clean up specific PowerShell module stale versions.
 
