@@ -10,5 +10,8 @@ Set-PSReadLineKeyHandler -Key "ctrl+p" -Function PreviousHistory
 Set-PsFzfOption -PSReadlineChordProvider "ctrl+f"
 Set-PsFzfOption -PSReadlineChordReverseHistory "ctrl+r"
 
+Set-TerminalIconsTheme -ColorTheme everforest
+Set-TerminalIconsTheme -IconTheme everforest
+
 Invoke-Expression (&oh-my-posh init powershell -c ~/prompt.toml)
 Invoke-Expression (&{(zoxide init powershell | Out-String)})
