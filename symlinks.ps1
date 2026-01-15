@@ -6,8 +6,8 @@ $symlinkPaths = @{
     "$HOME/AppData/Roaming/yazi/config" = "yazi/config";
     "$HOME/Documents/PowerShell/Microsoft.PowerShell_profile.ps1" = "profile.ps1";
     "$HOME/prompt.toml" = "prompt.toml";
-    "$HOME/scoop/persist/k9s/config/config.yaml" = "./k9s/config.yaml";
-    "$HOME/scoop/persist/k9s/config/skins/everforest.yaml" = "./k9s/skins/everforest.yaml";
+    "$HOME/scoop/persist/k9s/config/config.yaml" = "k9s/config.yaml";
+    "$HOME/scoop/persist/k9s/config/skins/everforest.yaml" = "k9s/skins/everforest.yaml";
     (Join-Path $terminalIconsCurrentDataPath "/colorThemes/everforest.psd1") = "terminal-icons/colorThemes/everforest.psd1";
     (Join-Path $terminalIconsCurrentDataPath "/iconThemes/everforest.psd1") = "terminal-icons/iconThemes/everforest.psd1";
 }
