@@ -355,6 +355,7 @@
             '.sln.dotsettings'      = '7fbbb3'
             '.sln.dotsettings.user' = '7fbbb3'
             '.slnf'                 = 'd699b6'
+            '.slnx'                 = 'd699b6'
             '.sql'                  = 'dbbc7f'
             '.sqlite'               = 'dbbc7f'
             '.srt'                  = '83c092'

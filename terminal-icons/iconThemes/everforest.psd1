@@ -302,6 +302,7 @@
             '.sln.dotsettings'      = 'nf-fa-gear'
             '.sln.dotsettings.user' = 'nf-fa-gear'
             '.slnf'                 = 'nf-dev-visualstudio'
+            '.slnx'                 = 'nf-dev-visualstudio'
             '.sql'                  = 'nf-dev-database'
             '.sqlite'               = 'nf-dev-database'
             '.srt'                  = 'nf-md-file_document'
