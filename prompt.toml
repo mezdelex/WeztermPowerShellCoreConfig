@@ -157,5 +157,5 @@ threshold = 0
 [[blocks.segments]]
 foreground = "#7FBBB3"
 style = "plain"
-template = ""
+template = ""
 type = "text"
