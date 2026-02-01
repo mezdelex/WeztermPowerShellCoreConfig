@@ -3,6 +3,7 @@ $terminalIconsCurrentDataPath = (Get-ChildItem "$HOME/Documents/PowerShell/Modul
 $symlinkPaths = @{
     "$HOME/.config/wezterm/wezterm.lua" = "wezterm.lua";
     "$HOME/.gitconfig" = ".gitconfig";
+    "$HOME/.vimrc" = ".vimrc";
     "$HOME/AppData/Roaming/yazi/config" = "yazi/config";
     "$HOME/Documents/PowerShell/Microsoft.PowerShell_profile.ps1" = "profile.ps1";
     "$HOME/prompt.toml" = "prompt.toml";
