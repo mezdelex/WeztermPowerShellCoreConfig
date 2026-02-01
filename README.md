@@ -3,6 +3,7 @@
 > - OS: Windows 11
 > - Terminal: Wezterm
 > - Shell: PowerShell Core
+> - Launcher: Flow Launcher
 
 ---
 
