@@ -2,7 +2,8 @@
 >
 > - OS: Windows 11
 > - Terminal: Wezterm
-> - Shell: PowerShell Core
+> - Shell: PowerShell
+> - Editor: Neovim
 > - Launcher: Flow Launcher
 
 ---
@@ -22,6 +23,7 @@
 > - Install `neovim-nightly`, `fd`, `grpcurl`, `mingw-winlibs-llvm-msvcrt`, `ripgrep`, `rustup` & `tree-sitter` via `scoop install neovim-nightly fd grpcurl mingw-winlibs-llvm-msvcrt ripgrep rustup tree-sitter` @ PowerShell & follow [config](https://github.com/mezdelex/neovim) instructions.
 > - Install `lazygit` via `scoop install lazygit` @ PowerShell.
 > - Install `lazydocker` via `scoop install lazydocker` @ PowerShell.
+> - Install `lazysql` via `scoop install lazysql` @ PowerShell.
 > - Install `kubectl` & `k9s` via `scoop install kubectl k9s` @ PowerShell
 > - Install `zoxide` via `scoop install zoxide` @ PowerShell.
 > - Install `yazi`, `ffmpeg`, `jid`, `jq`, `poppler` & `resvg` via `scoop install yazi ffmpeg jid jq poppler resvg` @ PowerShell & `setx YAZI_FILE_ONE "$HOME/scoop/apps/git/current/usr/bin/file.exe"`.
@@ -53,6 +55,7 @@
 |     Neovim     | [neovim](https://github.com/neovim/neovim)/[fd](https://github.com/sharkdp/fd)/[grpcurl](https://github.com/fullstorydev/grpcurl)/[ripgrep](https://github.com/BurntSushi/ripgrep)/[rustup](https://github.com/rust-lang/rustup)/[tree-sitter](https://github.com/tree-sitter/tree-sitter) |                  [neovim](https://github.com/mezdelex/neovim)                   |
 |    Lazygit     |                                                                                                                    [lazygit](https://github.com/jesseduffield/lazygit)                                                                                                                     |                                       n/a                                       |
 |   Lazydocker   |                                                                                                                 [lazydocker](https://github.com/jesseduffield/lazydocker)                                                                                                                  |                                       n/a                                       |
+|    Lazysql     |                                                                                                                     [lazysql](https://github.com/jorgerojas26/lazysql)                                                                                                                     |                                       n/a                                       |
 |      K9s       |                                                                                                  [kubectl](https://github.com/kubernetes/kubectl)/[k9s](https://github.com/derailed/k9s)                                                                                                   |            [k9s](https://github.com/mezdelex/dotfiles/blob/main/k9s)            |
 |     Zoxide     |                                                                                                                      [zoxide](https://github.com/ajeetdsouza/zoxide)                                                                                                                       |                                       n/a                                       |
 |      Yazi      |              [yazi](https://github.com/sxyazi/yazi)/[ffmpeg](https://github.com/FFmpeg/FFmpeg)/[jid](https://github.com/simeji/jid)/[jq](https://github.com/jqlang/jq)/[poppler](https://gitlab.freedesktop.org/poppler/poppler)/[resvg](https://github.com/linebender/resvg)              |           [yazi](https://github.com/mezdelex/dotfiles/blob/main/yazi)           |
