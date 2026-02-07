@@ -9,7 +9,7 @@ type = "prompt"
 [[blocks.segments]]
 foreground = "#E67E80"
 style = "plain"
-template = "󱐋 "
+template = "[] "
 type = "root"
 
 [[blocks.segments]]
@@ -19,10 +19,8 @@ template = "{{ .Path }}"
 type = "path"
 
 [blocks.segments.options]
-folder_icon = ""
 folder_separator_icon = "󰿟"
-home_icon = ""
-style = "mixed"
+style = "full"
 
 [[blocks.segments]]
 foreground = "#A7C080"
