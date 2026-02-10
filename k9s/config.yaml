@@ -16,7 +16,6 @@ k9s:
   noExitOnCtrlC: false
   readOnly: false
   refreshRate: 2
-  screenDumpDir: ${HOME}/scoop/persist/k9s/config/screen-dumps
   shellPod:
     image: busybox:1.35.0
     limits:
