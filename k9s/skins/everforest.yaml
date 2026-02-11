@@ -7,7 +7,11 @@ k9s:
     bgColor: "#3D484D"
     buttonBgColor: "#7FBBB3"
     buttonFgColor: "#2D353B"
-    fgColor: "#DBBC7F"
+    buttonFocusBgColor: "#7FBBB3"
+    buttonFocusFgColor: "#2D353B"
+    fgColor: "#DBC7F"
+    fieldFgColor: "#A7C080"
+    labelFgColor: "#D3C6AA"
   frame:
     border:
       fgColor: "#343F44"
