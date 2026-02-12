@@ -29,7 +29,7 @@
 > - Install `yazi`, `ffmpeg`, `jid`, `jq`, `poppler` & `resvg` via `scoop install yazi ffmpeg jid jq poppler resvg` @ PowerShell & `setx YAZI_FILE_ONE "$HOME/scoop/apps/git/current/usr/bin/file.exe"`.
 > - Install `neovim-nightly`, `fd`, `grpcurl`, `mingw-winlibs-llvm-msvcrt`, `ripgrep`, `rustup` & `tree-sitter` via `scoop install neovim-nightly fd grpcurl mingw-winlibs-llvm-msvcrt ripgrep rustup tree-sitter` @ PowerShell & follow [config](https://github.com/mezdelex/neovim) instructions.
 > - Install `flow-launcher` via `scoop install flow-launcher` @ PowerShell.
-> - Clone this repository & run [symlinks](https://github.com/mezdelex/dotfiles/blob/main/symlinks.ps1) script with admin rights to set all the symlinks at once @ PowerShell.
+> - Clone this repository via `git clone --recurse-submodules https://github.com/mezdelex/dotfiles` & run [symlinks](https://github.com/mezdelex/dotfiles/blob/main/symlinks.ps1) script with admin rights to set all the symlinks at once @ PowerShell.
 
 ---
 
